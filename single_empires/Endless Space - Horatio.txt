@@ -1,0 +1,155 @@
+"The Horatio"=
+{
+	key="The Horatio"
+	ship_prefix=
+	{
+		key="HOR"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_06"
+		species_name=
+		{
+			key="Horatio"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Horatio"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Horatio"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Endless Space - Horatio
+
+
+
+
+
+
+The Horatio are Horatio, and intend to expand until the galaxy is as gorgeous as they are."
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_perfected_genes"
+		trait="trait_communal"
+		trait="trait_agrarian"
+		trait="trait_decadent"
+	}
+	name=
+	{
+		key="The Horatio"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Horatio"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
+	advisor_voice_type="l_evil_corp"
+	planet_name=
+	{
+		key="Horatio Prime"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="SPEC_Hesukar_system"
+	}
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="plantoid"
+			file="plantoid_04.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_49.dds"
+		}
+		colors=
+		{
+			"moss_green"
+			"desert_yellow"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="MACHINE1_RULER_01"
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_hp_06"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="The First"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="The Second"
+			literal=yes
+		}
+		trait="leader_trait_legendary_genetic_purist"
+		trait="leader_trait_legendary_bad_meritocracy"
+		trait="leader_trait_legendary_industry_titan"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_pleasure_seekers"
+		"civic_pompous_purists"
+	}
+	origin="origin_legendary_leader"
+}

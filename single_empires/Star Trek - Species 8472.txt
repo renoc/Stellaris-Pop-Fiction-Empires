@@ -1,0 +1,180 @@
+"Species 8472 Executioners"=
+{
+	key="Species 8472 Executioners"
+	ship_prefix=
+	{
+		key="8472"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art17"
+		species_name=
+		{
+			key="Species 8472"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="8472s"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="8472"
+			literal=yes
+		}
+		species_bio="Star Trek - Species 8472"
+		name_list="ART4"
+		gender=female
+		trait="trait_extremely_adaptive"
+		trait="trait_solitary"
+		trait="trait_quarrelsome"
+	}
+	name=
+	{
+		key="format.purifier.1"
+		variables=
+		{
+			
+			{
+				key="purifiers"
+				value=
+				{
+					key="Executioners"
+				}
+			}
+ 
+			{
+				key="This.GetSpeciesName"
+				value=
+				{
+					key="Species 8472"
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="format.species"
+					variables=
+					{
+						
+						{
+							key="purifiers"
+							value=
+							{
+								key="Executioners"
+							}
+						}
+ 
+						{
+							key="This.GetSpeciesName"
+							value=
+							{
+								key="Species 8472"
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_dimensional_covenant"
+	advisor_voice_type="l_tox_vir"
+	planet_name=
+	{
+		key="SPEC_Maggar_planet"
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="SPEC_Maggar_system"
+	}
+	initializer="custom_starting_init_01"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_19.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_3.dds"
+		}
+		colors=
+		{
+			"red_orange"
+			"dark_teal"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="ART4_CHR_ArI"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="ART4_CHR_seSka"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="art17"
+		texture=4
+		attachment=0
+		clothes=0
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_fanatic_purifiers"
+		"civic_dimensional_worship"
+	}
+	origin="origin_riftworld"
+}

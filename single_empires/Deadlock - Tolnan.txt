@@ -1,0 +1,179 @@
+"Harmonious Tolnan Council"=
+{
+	key="Harmonious Tolnan Council"
+	ship_prefix=
+	{
+		key="TOL"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_16"
+		species_name=
+		{
+			key="Tolnan"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Tolnan"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Tolnan"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Deadlock - Tolnan"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_survivor"
+		trait="trait_charismatic"
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_docile"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Harmonious"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Tolnan"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Council"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Tolnan"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_pacifist"
+	planet_name=
+	{
+		key="Koelia III"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Koelia"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="aquatic_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="legion"
+			file="legion_06.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_35.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"desert_yellow"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Oolan"
+				literal=yes
+			}
+		}
+		portrait="humanoid_hp_16_male"
+		texture=0
+		attachment=0
+		clothes=1
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_fanatic_pacifist"
+	civics=
+	{
+		"civic_diplomatic_corps"
+		"civic_memory_vault"
+	}
+	origin="origin_post_apocalyptic"
+}

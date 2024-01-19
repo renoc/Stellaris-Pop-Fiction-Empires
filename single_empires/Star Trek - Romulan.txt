@@ -1,0 +1,199 @@
+"Romulan Stellar Empire"=
+{
+	key="Romulan Stellar Empire"
+	ship_prefix=
+	{
+		key="ROM"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_05"
+		species_name=
+		{
+			key="Romulan"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Romulans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Romulan"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Trek - Romulan"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_quarrelsome"
+		trait="trait_communal"
+		trait="trait_nomadic"
+		trait="trait_quick_learners"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Romulan"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="%ADJ%"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Stellar"
+								variables=
+								{
+									
+									{
+										key="1"
+										value=
+										{
+											key="Empire"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Romulan"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_star_empire"
+	advisor_voice_type="l_the_diplomat"
+	planet_name=
+	{
+		key="Romulus"
+		literal=yes
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="Romulus"
+		literal=yes
+	}
+	initializer="fear_of_the_dark_system"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="imperial"
+			file="imperial_03.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="vertical.dds"
+		}
+		colors=
+		{
+			"ice_turquoise"
+			"light_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUM1_CHR_Cognat"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUM1_CHR_dVhakk"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="humanoid_05_female_01"
+		texture=0
+		attachment=0
+		clothes=7
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_cutthroat_politics"
+		"civic_police_state"
+	}
+	origin="origin_fear_of_the_dark"
+}

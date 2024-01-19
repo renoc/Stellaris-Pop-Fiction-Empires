@@ -1,0 +1,199 @@
+"Jem Ha'daran Holy Empire"=
+{
+	key="Jem Ha'daran Holy Empire"
+	ship_prefix=
+	{
+		key="JEM"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_01"
+		species_name=
+		{
+			key="Jem Ha'dar"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Jems Ha'dar"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Jem Ha'dar"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Trek - Jem Ha'dar"
+		name_list="HUM1"
+		gender=not_set
+		trait="trait_clone_soldier_infertile"
+		trait="trait_very_strong"
+		trait="trait_fleeting"
+		trait="trait_wasteful"
+		trait="trait_quarrelsome"
+		trait="trait_adaptive"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Jem Ha'dar"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="%ADJ%"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Holy"
+								variables=
+								{
+									
+									{
+										key="1"
+										value=
+										{
+											key="Empire"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Jem Ha'dar"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	advisor_voice_type="l_militarist"
+	planet_name=
+	{
+		key="SPEC_YlKhahan_planet"
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="SPEC_YlKhahan_system"
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="necroid"
+			file="necroid_09.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="diagonal_stripe.dds"
+		}
+		colors=
+		{
+			"shadow_steel"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUM1_CHR_Hephanir"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUM1_CHR_dVhakk"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="humanoid_hp_01_female"
+		texture=0
+		attachment=0
+		clothes=3
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_imperial_cult"
+		"civic_distinguished_admiralty"
+	}
+	origin="origin_clone_army"
+}

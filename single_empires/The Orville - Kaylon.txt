@@ -1,0 +1,174 @@
+"Kaylon Prime Intellect"=
+{
+	key="Kaylon Prime Intellect"
+	ship_prefix=
+	{
+		key="KAY"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="default_robot"
+		species_name=
+		{
+			key="Kaylon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Kaylon"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Kaylon"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="The Orville - Kaylon"
+		name_list="MACHINE4"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_luxurious"
+		trait="trait_robot_learning_algorithms"
+		trait="trait_robot_enhanced_memory"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Kaylon"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="Prime_Intellect"
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Kaylon"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Kaylon 1"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Kayla"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="toxoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"red"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MACHINE4_CHR_Computer"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MACHINE4_CHR_Heptagon"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="default_robot"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_feedback_loop"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="toxoids_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_delegated_functions"
+		"civic_machine_introspective"
+	}
+	origin="origin_machine"
+}

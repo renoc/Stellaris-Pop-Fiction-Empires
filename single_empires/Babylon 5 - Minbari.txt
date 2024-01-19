@@ -1,0 +1,198 @@
+"Minbarian Alliance of Suns"=
+{
+	key="Minbarian Alliance of Suns"
+	ship_prefix=
+	{
+		key="MIN"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_10"
+		species_name=
+		{
+			key="Minbari"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Minibars"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Minbari"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Babylon 5 - Minbari"
+		name_list="HUM3"
+		gender=not_set
+		trait="trait_solitary"
+		trait="trait_inorganic_breath"
+		trait="trait_sedentary"
+		trait="trait_conservational"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Minbari"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="%ADJ%"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Allianceof"
+								variables=
+								{
+									
+									{
+										key="1"
+										value=
+										{
+											key="Suns"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Minbari"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="SPEC_Mireesh_planet"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="SPEC_Mireesh_system"
+	}
+	initializer="toxic_knights_start"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors=
+		{
+			"shadow_blue"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="HUM3_CHR_Yria"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="HUM3_CHR_na-Ibban"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="humanoid_hp_10_female"
+		texture=2
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_environmentalist"
+		"civic_shadow_council"
+	}
+	origin="origin_toxic_knights"
+}

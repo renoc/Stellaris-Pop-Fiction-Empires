@@ -1,0 +1,167 @@
+"Uva Mosk Cooperative"=
+{
+	key="Uva Mosk Cooperative"
+	ship_prefix=
+	{
+		key="UVA"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art14"
+		species_name=
+		{
+			key="Uva Mosk"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Uva Mosk"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Uva Mosk"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Deadlock - Uva Mosk"
+		name_list="NECROID1"
+		gender=not_set
+		trait="trait_industrious"
+		trait="trait_sedentary"
+		trait="trait_solitary"
+		trait="trait_conservational"
+		trait="trait_natural_sociologists"
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Uva Mosk"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="Cooperative"
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Uva Mosk"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="Moska"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Bost"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="legion"
+			file="flag_mp_beta_02.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_32.dds"
+		}
+		colors=
+		{
+			"dark_green"
+			"brown"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Tuka"
+				literal=yes
+			}
+		}
+		portrait="art14"
+		texture=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Grand Hortus"
+			literal=yes
+		}
+		ruler_title_female=
+		{
+			key="Grand Hortus"
+			literal=yes
+		}
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_environmentalist"
+		"civic_inwards_perfection"
+	}
+	origin="origin_default"
+}

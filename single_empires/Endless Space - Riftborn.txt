@@ -1,0 +1,161 @@
+"Riftborn Continuum"=
+{
+	key="Riftborn Continuum"
+	ship_prefix=
+	{
+		key="RFT"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_mol_robot"
+		species_name=
+		{
+			key="Riftborn"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Riftborn"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Riftborn"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Endless Space - Riftborn
+
+
+
+
+
+
+The Riftborn must escape the Blight which is destroying their home."
+		name_list="LITHOID3"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_logic_engines"
+		trait="trait_robot_custom_made"
+	}
+	name=
+	{
+		key="Riftborn Continuum"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Riftborn"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_research"
+	advisor_voice_type="l_necroid_vir"
+	planet_name=
+	{
+		key="Vanguard"
+		literal=yes
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="Coroz"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="avian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"white"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="LITHOID3_CHR_Taarn-phon"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="LITHOID3_CHR_Lataarn"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="sd_mol_robot"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_ruthless_capitalists_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_introspective"
+		"civic_machine_memorialist"
+	}
+	origin="origin_doomsday"
+}

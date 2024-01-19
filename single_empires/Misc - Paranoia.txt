@@ -1,0 +1,140 @@
+"Computer Core"=
+{
+	key="Computer Core"
+	ship_prefix=
+	{
+		key="UV"
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="sd_rep_robot"
+		species_name=
+		{
+			key="Friend Computer"
+		}
+		species_plural=
+		{
+			key="Friends"
+		}
+		species_adjective=
+		{
+			key="Computer"
+		}
+		species_bio="Misc - Paranoia
+
+
+
+
+
+
+The computer is your friend. Happiness is manditory."
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_machine_unit"
+		trait="trait_robot_repurposed_hardware"
+		trait="trait_robot_double_jointed"
+		trait="trait_robot_recycled"
+		trait="trait_robot_custom_made"
+	}
+	secondary_species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Clone"
+		}
+		species_plural=
+		{
+			key="Clones"
+		}
+		species_adjective=
+		{
+			key="Clone"
+		}
+		species_bio="Six Lives"
+		name_list="HUM3"
+		gender=not_set
+		trait="trait_nomadic"
+		trait="trait_conservational"
+		trait="trait_fleeting"
+		trait="trait_slow_learners"
+		trait="trait_adaptive"
+	}
+	name=
+	{
+		key="Computer Core"
+	}
+	adjective=
+	{
+		key="Core"
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_servitor"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Alpha Complex"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Sol Complex"
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_22.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"turquoise"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="01"
+			}
+		}
+		portrait="sd_rep_robot"
+		texture=1
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Friend Computer"
+		}
+		trait="trait_ruler_feedback_loop"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_hegemonic_imperialists_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_servitor"
+		"civic_memory_vault_machine"
+	}
+	origin="origin_default"
+}
