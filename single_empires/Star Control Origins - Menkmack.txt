@@ -1,0 +1,172 @@
+"Menkmack Enterprises"=
+{
+	key="Menkmack Enterprises"
+	ship_prefix=
+	{
+		key="MNK"
+		literal=yes
+	}
+	species=
+	{
+		class="TOX"
+		portrait="tox6"
+		species_name=
+		{
+			key="Menkmack"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Menkmack"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Menkmack"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Control Origins - Menkmack"
+		name_list="ART3"
+		gender=not_set
+	}
+	name=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Menkmack"
+				}
+			}
+ 
+			{
+				key="1"
+				value=
+				{
+					key="Enterprises"
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Menkmack"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_megacorporation"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="New New New Menkmack"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Beta Lynx"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_6.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_24.dds"
+		}
+		colors=
+		{
+			"black"
+			"beige"
+			"turquoise"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="ART3_CHR_Ztykatt"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="ART3_CHR_Crumtika"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="tox6"
+		texture=1
+		attachment=0
+		clothes=1
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_corporate_hyperspace_specialty"
+		"civic_private_prospectors"
+	}
+	origin="origin_doomsday"
+}

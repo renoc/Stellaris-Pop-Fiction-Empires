@@ -1,0 +1,199 @@
+"Confederated Vyro-Ingo Nations"=
+{
+	key="Confederated Vyro-Ingo Nations"
+	ship_prefix=
+	{
+		key="VYR"
+		literal=yes
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="aqu2"
+		species_name=
+		{
+			key="Vyro-Ingo"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Vyro-Ingo"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Vyro-Ingo"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Control 3 - Vyro-Ingo"
+		name_list="AQUATIC1"
+		gender=not_set
+		trait="trait_humanoid_jinxed"
+		trait="trait_noxious"
+		trait="trait_juiced_power"
+		trait="trait_expressed_tradition"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Confederated"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Vyro-Ingo"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Nations"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Vyro-Ingo"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_representative_democracy"
+	advisor_voice_type="l_xenophobe"
+	planet_name=
+	{
+		key="Skorsh"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Izanagi"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="toxoid_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="paradox"
+			file="paradox_logo.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_21.dds"
+		}
+		colors=
+		{
+			"burgundy"
+			"intense_turquoise"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="AQUATIC1_CHR_Gaushe"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="AQUATIC1_CHR_Brean"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="aqu2_f"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_xenophobe"
+	civics=
+	{
+		"civic_pompous_purists"
+		"civic_toxic_baths"
+	}
+	origin="origin_overtuned"
+}

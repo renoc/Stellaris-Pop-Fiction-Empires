@@ -1,0 +1,195 @@
+"Republican Measuran Constituents"=
+{
+	key="Republican Measuran Constituents"
+	ship_prefix=
+	{
+		key="MSR"
+		literal=yes
+	}
+	species=
+	{
+		class="PLANT"
+		portrait="pla3"
+		species_name=
+		{
+			key="Measured"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Measures"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Measured"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Control Origins - Measured"
+		name_list="MACHINE4"
+		gender=not_set
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Republican"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Measured"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Constituents"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Measured"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="Delta Domos I"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Delta Domos"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_19.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_32.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"shadow_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MACHINE4_CHR_Calculator"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MACHINE4_CHR_Oloid"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="pla3"
+		texture=1
+		attachment=0
+		clothes=0
+		trait="trait_ruler_logistic_understanding"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_byzantine_bureaucracy"
+		"civic_memorialist"
+	}
+	origin="origin_imperial_vassal"
+}

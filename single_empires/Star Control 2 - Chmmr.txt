@@ -1,0 +1,225 @@
+"Chmmr Communal State"=
+{
+	key="Chmmr Communal State"
+	ship_prefix=
+	{
+		key="CMR"
+		literal=yes
+	}
+	species=
+	{
+		class="LITHOID"
+		portrait="lith7"
+		species_name=
+		{
+			key="Chmmr"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Chmmrs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Chmmr"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Control 2 - Chmmr"
+		name_list="LITHOID1"
+		gender=not_set
+		trait="trait_lithoid"
+		trait="trait_conservational"
+		trait="trait_nomadic"
+	}
+	name=
+	{
+		key="format.communal_parity.3"
+		variables=
+		{
+			
+			{
+				key="communal_parity"
+				value=
+				{
+					key="Communal_State"
+				}
+			}
+ 
+			{
+				key="imperial_celestial"
+				value=
+				{
+					key="Empire"
+				}
+			}
+ 
+			{
+				key="This.GetSpeciesName"
+				value=
+				{
+					key="Chmmr"
+				}
+			}
+ 
+			{
+				key="This.Capital.GetName"
+				value=
+				{
+					key="SPEC_Cherk_planet"
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="format.homeworld"
+					variables=
+					{
+						
+						{
+							key="communal_parity"
+							value=
+							{
+								key="Communal_State"
+							}
+						}
+ 
+						{
+							key="imperial_celestial"
+							value=
+							{
+								key="Empire"
+							}
+						}
+ 
+						{
+							key="This.GetSpeciesName"
+							value=
+							{
+								key="Chmmr"
+							}
+						}
+ 
+						{
+							key="This.Capital.GetName"
+							value=
+							{
+								key="SPEC_Cherk_planet"
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	advisor_voice_type="l_the_diplomat"
+	planet_name=
+	{
+		key="SPEC_Cherk_planet"
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="SPEC_Cherk_system"
+	}
+	initializer="custom_starting_init_05"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_5.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_27.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"desert_yellow"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="LITHOID1_CHR_Mekkt"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="LITHOID1_CHR_OkkBrakTek"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="lith7"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_industrialist"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_beacon_of_liberty"
+		"civic_free_haven"
+	}
+	origin="origin_mechanists"
+}

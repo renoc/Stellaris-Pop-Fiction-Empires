@@ -1,0 +1,155 @@
+"Federation of Allied Species"=
+{
+	key="Federation of Allied Species"
+	ship_prefix=
+	{
+		key="MUK"
+		literal=yes
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="aqu12"
+		species_name=
+		{
+			key="Mu'Kay"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Mu'Kays"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Mu'Kay"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Star Control Origins - Mu'Kay"
+		name_list="AQUATIC1"
+		gender=not_set
+		trait="trait_aquatic"
+	}
+	name=
+	{
+		key="Federation of Allied Species"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Allied"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_xenophile"
+	planet_name=
+	{
+		key="Mu'Kayaan"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Beta Pavo"
+		literal=yes
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="plantoid_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="plantoid"
+			file="plantoid_10.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_55.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"dark_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="AQUATIC1_CHR_Fiz"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="AQUATIC1_CHR_Lullwer"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="aqu12"
+		texture=4
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	civics=
+	{
+		"civic_anglers"
+		"civic_beacon_of_liberty"
+	}
+	origin="origin_ocean_paradise"
+}
