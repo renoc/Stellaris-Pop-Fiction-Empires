@@ -1,0 +1,200 @@
+"Galactic Hoon Republic"=
+{
+	key="Galactic Hoon Republic"
+	ship_prefix=
+	{
+		key="HOO"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam10"
+		species_name=
+		{
+			key="Hoon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Hoons"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Hoon"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Uplift Novels - Hoon"
+		name_list="PLANT4"
+		gender=not_set
+		trait="trait_very_strong"
+		trait="trait_quarrelsome"
+		trait="trait_solitary"
+		trait="trait_resilient"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Galactic"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Hoon"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Republic"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Hoon"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_military_commissariat"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Guthatsa"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Rousit"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="mammalian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_50.dds"
+		}
+		colors=
+		{
+			"indigo"
+			"grey"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="MOL4_CHR_Nyrg"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="MOL4_CHR_Mainmast"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="mam10"
+		texture=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="machine_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_byzantine_bureaucracy"
+		"civic_efficient_bureaucracy"
+	}
+	origin="origin_scion"
+}

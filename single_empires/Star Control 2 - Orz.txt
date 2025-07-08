@@ -22,7 +22,7 @@
 			key="Orz"
 		}
 		species_bio="Star Control 2 - Orz"
-		name_list="REP4"
+		name_list="TOX2"
 		gender=not_set
 		trait="trait_nonadaptive"
 		trait="trait_charismatic"
@@ -48,7 +48,7 @@
 	{
 		key="Brethlu"
 	}
-	initializer="custom_starting_init_01"
+	initializer="custom_starting_init_02"
 	graphical_culture="reptilian_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=

@@ -68,8 +68,8 @@
  
 		}
 	}
-	authority="auth_dictatorial"
-	government="gov_military_dictatorship"
+	authority="auth_corporate"
+	government="gov_megacorporation"
 	advisor_voice_type="l_authoritarian"
 	planet_name=
 	{
@@ -137,12 +137,13 @@
 	ignore_portrait_duplication=no
 	room="personality_peaceful_traders_room"
 	spawn_enabled=always
-	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_authoritarian"
 	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	civics=
 	{
-		"civic_dystopian_society"
-		"civic_cutthroat_politics"
+		"civic_corporate_hedonism"
+		"civic_franchising"
 	}
 	origin="origin_void_dwellers"
 }

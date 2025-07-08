@@ -3,7 +3,8 @@
 	key="Shofixti Regime"
 	ship_prefix=
 	{
-		key="ISS"
+		key="SFX"
+		literal=yes
 	}
 	species=
 	{
@@ -99,7 +100,7 @@
 	{
 		key="SPEC_Oklarr_planet"
 	}
-	planet_class="pc_arid"
+	planet_class="pc_savannah"
 	system_name=
 	{
 		key="SPEC_Oklarr_system"

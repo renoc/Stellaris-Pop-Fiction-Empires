@@ -66,7 +66,7 @@
 		}
 	}
 	authority="auth_oligarchic"
-	government="gov_science_directorate"
+	government="gov_storm_chasers"
 	advisor_voice_type="l_xenophile"
 	planet_name=
 	{
@@ -129,12 +129,12 @@
 	ignore_portrait_duplication=no
 	room="personality_hegemonic_imperialists_room"
 	spawn_enabled=always
-	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics=
 	{
 		"civic_technocracy"
 		"civic_meritocracy"
 	}
-	origin="origin_default"
+	origin="origin_storm_chasers"
 }

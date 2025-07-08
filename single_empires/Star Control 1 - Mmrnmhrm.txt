@@ -8,7 +8,7 @@
 	species=
 	{
 		class="MACHINE"
-		portrait="sd_pla_robot"
+		portrait="synth_machine_04"
 		species_name=
 		{
 			key="Mmrnmhrm"
@@ -37,7 +37,7 @@
 			}
 		}
 		species_bio="Star Control 1 - Mmrnmhrm"
-		name_list="MACHINE2"
+		name_list="MACHINE_AGE2"
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_double_jointed"
@@ -98,7 +98,7 @@
 	}
 	initializer="shattered_ring_start"
 	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
+	city_graphical_culture="cybernetics_01"
 	empire_flag=
 	{
 		icon=
@@ -129,7 +129,7 @@
 				key="Logos"
 			}
 		}
-		portrait="sd_pla_robot"
+		portrait="synth_machine_04"
 		texture=0
 		attachment=0
 		clothes=0

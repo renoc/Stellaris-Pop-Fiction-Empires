@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 3 - Herald"
-		name_list="MAM3"
+		name_list="MAM2"
 		gender=not_set
 		trait="trait_nonadaptive"
 		trait="trait_humanoid_jinxed"
@@ -92,7 +92,7 @@
 	{
 		key="SPEC_Glost-Werheni_planet"
 	}
-	planet_class="pc_arid"
+	planet_class="pc_alpine"
 	system_name=
 	{
 		key="SPEC_Glost-Werheni_system"

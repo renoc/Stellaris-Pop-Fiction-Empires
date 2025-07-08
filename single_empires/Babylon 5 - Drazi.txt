@@ -86,8 +86,8 @@
 		}
 		colors=
 		{
-			"teal"
 			"shadow_purple"
+			"teal"
 			"black"
 			"null"
 		}
@@ -112,7 +112,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="aquatics_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"

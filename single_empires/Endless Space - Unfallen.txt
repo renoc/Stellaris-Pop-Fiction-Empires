@@ -41,8 +41,10 @@
 		name_list="REP2"
 		gender=not_set
 		trait="trait_hive_mind"
+		trait="trait_wilderness"
 		trait="trait_resilient"
-		trait="trait_natural_sociologists"
+		trait="trait_rooted"
+		trait="trait_venerable"
 	}
 	name=
 	{
@@ -85,7 +87,7 @@
 		}
 	}
 	authority="auth_hive_mind"
-	government="gov_hive_mind"
+	government="gov_wilderness"
 	advisor_voice_type="l_pacifist"
 	planet_name=
 	{
@@ -99,8 +101,8 @@
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="toxoid_01"
-	city_graphical_culture="plantoid_01"
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="wilderness_01"
 	empire_flag=
 	{
 		icon=
@@ -141,7 +143,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_spiritual_seekers_room"
+	room="wilderness_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=
@@ -149,5 +151,5 @@
 		"civic_hive_subspace_ephapse"
 		"civic_hive_sovereign_guardianship"
 	}
-	origin="origin_tree_of_life"
+	origin="origin_wilderness"
 }

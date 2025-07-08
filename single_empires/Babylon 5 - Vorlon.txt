@@ -43,9 +43,10 @@
 		trait="trait_lithoid"
 		trait="trait_perfected_genes"
 		trait="trait_venerable"
-		trait="trait_humanoid_psychological_infertility"
 		trait="trait_talented"
 		trait="trait_solitary"
+		trait="trait_sedentary"
+		trait="trait_decadent"
 	}
 	name=
 	{
@@ -83,7 +84,7 @@
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="arthropoid_01"
+	graphical_culture="biogenesis_02"
 	city_graphical_culture="lithoid_01"
 	empire_flag=
 	{
@@ -118,6 +119,7 @@
 		}
 		portrait="lith4"
 		texture=2
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		ruler_title=
@@ -135,9 +137,9 @@
 		trait="leader_trait_legendary_high_king"
 		leader_class="official"
 	}
-	spawn_as_fallen=no
+	spawn_as_fallen=yes
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="lithoid_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_authoritarian"
 	ethic="ethic_xenophile"

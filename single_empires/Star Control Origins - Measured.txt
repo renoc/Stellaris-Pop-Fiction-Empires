@@ -8,8 +8,8 @@
 	}
 	species=
 	{
-		class="PLANT"
-		portrait="pla3"
+		class="AQUATIC"
+		portrait="aqu7"
 		species_name=
 		{
 			key="Measured"
@@ -38,8 +38,12 @@
 			}
 		}
 		species_bio="Star Control Origins - Measured"
-		name_list="MACHINE4"
+		name_list="MACHINE2"
 		gender=not_set
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_conformists"
+		trait="trait_traditional"
+		trait="trait_conservational"
 	}
 	name=
 	{
@@ -173,8 +177,9 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="pla3"
-		texture=1
+		portrait="aqu7"
+		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		trait="trait_ruler_logistic_understanding"
@@ -182,7 +187,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="necroids_room"
 	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"

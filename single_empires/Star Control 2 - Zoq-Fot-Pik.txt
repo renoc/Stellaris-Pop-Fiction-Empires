@@ -58,7 +58,7 @@
 	}
 	initializer="custom_starting_init_01"
 	graphical_culture="lithoid_01"
-	city_graphical_culture="lithoid_01"
+	city_graphical_culture="solarpunk_01"
 	empire_flag=
 	{
 		icon=
@@ -118,7 +118,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_metalheads_room"
+	room="solarpunk_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_fanatic_xenophile"

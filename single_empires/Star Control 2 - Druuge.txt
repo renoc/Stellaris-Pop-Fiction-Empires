@@ -3,7 +3,8 @@
 	key="Crimson Corporation"
 	ship_prefix=
 	{
-		key="ISS"
+		key="DRU"
+		literal=yes
 	}
 	species=
 	{
@@ -66,7 +67,7 @@
 	}
 	authority="auth_corporate"
 	government="gov_megacorporation"
-	advisor_voice_type="l_slick_corp"
+	advisor_voice_type="l_evil_corp"
 	planet_name=
 	{
 		key="SPEC_Prossnakan_planet"

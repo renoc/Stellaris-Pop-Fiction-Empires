@@ -71,7 +71,7 @@
 	advisor_voice_type="l_authoritarian"
 	planet_name=
 	{
-		key="Centauri Prome"
+		key="Centauri Prime"
 		literal=yes
 	}
 	planet_class="pc_alpine"
@@ -80,7 +80,7 @@
 		key="Xon"
 		literal=yes
 	}
-	initializer=""
+	initializer="deneb_system"
 	graphical_culture="molluscoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag=
@@ -132,5 +132,5 @@
 		"civic_feudal_realm"
 		"civic_pleasure_seekers"
 	}
-	origin="origin_default"
+	origin="origin_remnants"
 }

@@ -43,7 +43,7 @@
 	{
 		key="Vrinn"
 	}
-	planet_class="pc_tundra"
+	planet_class="pc_arctic"
 	system_name=
 	{
 		key="Vrinnus"

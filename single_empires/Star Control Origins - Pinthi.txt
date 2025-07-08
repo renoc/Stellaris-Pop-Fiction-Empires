@@ -144,7 +144,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="organic_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_militarist"

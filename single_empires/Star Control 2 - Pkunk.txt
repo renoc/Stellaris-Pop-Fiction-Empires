@@ -3,7 +3,8 @@
 	key="Divine Pkunk Administration"
 	ship_prefix=
 	{
-		key="ISS"
+		key="PNK"
+		literal=yes
 	}
 	species=
 	{
@@ -22,7 +23,7 @@
 			key="Pkunkra"
 		}
 		species_bio="Star Control 2 - Pkunk"
-		name_list="AVI3"
+		name_list="AVI4"
 		gender=not_set
 		trait="trait_latent_psionic"
 		trait="trait_rapid_breeders"
@@ -50,9 +51,9 @@
 	{
 		key="Khessar"
 	}
-	initializer="custom_starting_init_03"
+	initializer=""
 	graphical_culture="avian_01"
-	city_graphical_culture="avian_01"
+	city_graphical_culture="solarpunk_01"
 	empire_flag=
 	{
 		icon=

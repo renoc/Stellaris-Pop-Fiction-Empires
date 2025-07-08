@@ -3,44 +3,34 @@
 	key="The Maquis"
 	ship_prefix=
 	{
-		key="ISS"
+		key="MAQ"
+		literal=yes
 	}
 	species=
 	{
 		class="HUM"
-		portrait="human_legacy"
+		portrait="human"
 		species_name=
 		{
-			key="Bajoran"
+			key="Human"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Bajorans"
+			key="Humans"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Bajoran"
-						literal=yes
-					}
-				}
- 
-			}
+			key="Human"
+			literal=yes
 		}
 		species_bio="Star Trek - Maquis"
 		name_list="HUMAN2"
 		gender=not_set
-		trait="trait_resilient"
-		trait="trait_conservational"
+		trait="trait_adaptive"
+		trait="trait_nomadic"
+		trait="trait_wasteful"
 	}
 	name=
 	{
@@ -65,7 +55,7 @@
 		}
 	}
 	authority="auth_democratic"
-	government="gov_theocratic_republic"
+	government="gov_military_commissariat"
 	advisor_voice_type="l_xenophile"
 	planet_name=
 	{
@@ -76,7 +66,7 @@
 	{
 		key="SPEC_Bebaki_system"
 	}
-	initializer="custom_starting_init_01"
+	initializer="custom_starting_init_04"
 	graphical_culture="toxoid_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=
@@ -130,7 +120,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="human_legacy_female_03"
+		portrait="human"
 		texture=0
 		attachment=11
 		clothes=4
@@ -146,9 +136,8 @@
 	ignore_portrait_duplication=no
 	room="personality_decadent_hierarchy_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics=
 	{
 		"civic_beacon_of_liberty"

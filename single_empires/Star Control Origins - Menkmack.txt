@@ -40,6 +40,9 @@
 		species_bio="Star Control Origins - Menkmack"
 		name_list="ART3"
 		gender=not_set
+		trait="trait_nomadic"
+		trait="trait_deviants"
+		trait="trait_thrifty"
 	}
 	name=
 	{

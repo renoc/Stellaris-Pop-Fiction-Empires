@@ -9,7 +9,7 @@
 	species=
 	{
 		class="MACHINE"
-		portrait="default_robot"
+		portrait="aqu_machine"
 		species_name=
 		{
 			key="Kaylon"
@@ -42,8 +42,9 @@
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_luxurious"
+		trait="trait_robot_integrated_weaponry"
 		trait="trait_robot_learning_algorithms"
-		trait="trait_robot_enhanced_memory"
+		trait="trait_robot_history_artbot"
 	}
 	name=
 	{
@@ -99,9 +100,9 @@
 		key="Kayla"
 		literal=yes
 	}
-	initializer=""
-	graphical_culture="nemesis_01"
-	city_graphical_culture="toxoid_01"
+	initializer="custom_starting_init_01"
+	graphical_culture="synthetics_01"
+	city_graphical_culture="synthetics_01"
 	empire_flag=
 	{
 		icon=
@@ -153,8 +154,9 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="default_robot"
+		portrait="aqu_machine"
 		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		trait="trait_ruler_feedback_loop"
@@ -170,5 +172,5 @@
 		"civic_machine_delegated_functions"
 		"civic_machine_introspective"
 	}
-	origin="origin_machine"
+	origin="origin_arc_welders"
 }

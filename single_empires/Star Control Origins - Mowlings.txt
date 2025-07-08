@@ -76,7 +76,7 @@
 		key="Moop"
 		literal=yes
 	}
-	planet_class="pc_tropical"
+	planet_class="pc_alpine"
 	system_name=
 	{
 		key="Delta Xiphops"
@@ -146,7 +146,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_metalheads_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_xenophile"
 	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"

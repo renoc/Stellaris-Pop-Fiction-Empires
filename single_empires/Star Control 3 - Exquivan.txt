@@ -94,13 +94,13 @@
 		key="Exquivo"
 		literal=yes
 	}
-	planet_class="pc_savannah"
+	planet_class="pc_desert"
 	system_name=
 	{
 		key="Exquivo"
 		literal=yes
 	}
-	initializer="toxic_knights_start"
+	initializer=""
 	graphical_culture="necroid_01"
 	city_graphical_culture="toxoid_01"
 	empire_flag=
@@ -135,7 +135,8 @@
 			use_full_regnal_name=yes
 		}
 		portrait="nec11"
-		texture=0
+		texture=1
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		trait="leader_trait_principled"
@@ -150,7 +151,7 @@
 	civics=
 	{
 		"civic_death_cult"
-		"civic_crusader_spirit"
+		"civic_memory_vault"
 	}
-	origin="origin_toxic_knights"
+	origin="origin_default"
 }

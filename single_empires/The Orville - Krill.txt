@@ -40,6 +40,7 @@
 		species_bio="The Orville - Krill"
 		name_list="REP3"
 		gender=not_set
+		trait="trait_perfected_genes"
 		trait="trait_nonadaptive"
 		trait="trait_conformists"
 		trait="trait_traditional"
@@ -137,7 +138,7 @@
 		texture=4
 		attachment=0
 		clothes=5
-		trait="leader_trait_principled"
+		trait="leader_trait_legendary_evervigilant"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -149,7 +150,7 @@
 	civics=
 	{
 		"civic_fanatic_purifiers"
-		"civic_functional_architecture"
+		"civic_exalted_priesthood"
 	}
-	origin="origin_default"
+	origin="origin_legendary_leader"
 }

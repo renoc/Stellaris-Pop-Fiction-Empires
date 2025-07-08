@@ -1,0 +1,195 @@
+"Galactic Qheuen Empire"=
+{
+	key="Galactic Qheuen Empire"
+	ship_prefix=
+	{
+		key="QUN"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art12"
+		species_name=
+		{
+			key="Qheuen"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Qheuens"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Qheuen"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Uplift Novels - Qheuen"
+		name_list="MOL4"
+		gender=not_set
+		trait="trait_aquatic"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Galactic"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Qheuen"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Empire"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Qheuen"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_despotic_empire"
+	advisor_voice_type="l_aqu_vir"
+	planet_name=
+	{
+		key="Awaiter"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Zhosh"
+		literal=yes
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="ornate"
+			file="flag_ornate_6.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_6.dds"
+		}
+		colors=
+		{
+			"turquoise"
+			"dark_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_1%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="ART3_CHR_Koldolf"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="ART3_CHR_Omaakixanaca"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="art12"
+		texture=1
+		attachment=0
+		clothes=0
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophile"
+	civics=
+	{
+		"civic_dystopian_society"
+		"civic_crafters"
+	}
+	origin="origin_ocean_paradise"
+}

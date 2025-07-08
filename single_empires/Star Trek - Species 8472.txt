@@ -104,9 +104,9 @@
 	{
 		key="SPEC_Maggar_system"
 	}
-	initializer="custom_starting_init_01"
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
+	initializer="custom_starting_init_02"
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="biogenesis_02"
 	empire_flag=
 	{
 		icon=
@@ -167,7 +167,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="aquatics_room"
+	room="biogenesis_02_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_spiritualist"

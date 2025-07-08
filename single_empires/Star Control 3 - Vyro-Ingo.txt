@@ -8,8 +8,8 @@
 	}
 	species=
 	{
-		class="AQUATIC"
-		portrait="aqu2"
+		class="ART"
+		portrait="art15"
 		species_name=
 		{
 			key="Vyro-Ingo"
@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 3 - Vyro-Ingo"
-		name_list="AQUATIC1"
+		name_list="AQUATIC2"
 		gender=not_set
 		trait="trait_humanoid_jinxed"
 		trait="trait_noxious"
@@ -177,7 +177,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="aqu2_f"
+		portrait="art15"
 		texture=0
 		attachment=0
 		clothes=0

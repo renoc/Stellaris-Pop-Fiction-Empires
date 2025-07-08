@@ -41,8 +41,6 @@
 		name_list="AVI2"
 		gender=not_set
 		trait="trait_charismatic"
-		trait="trait_deviants"
-		trait="trait_nomadic"
 	}
 	name=
 	{
@@ -85,7 +83,7 @@
 		}
 	}
 	authority="auth_corporate"
-	government="gov_criminal_syndicate"
+	government="gov_megacorporation"
 	advisor_voice_type="l_slick_corp"
 	planet_name=
 	{
@@ -141,7 +139,7 @@
 			key="Minister"
 			literal=yes
 		}
-		trait="leader_trait_spycraft"
+		trait="leader_trait_treasure_hoarder"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -152,8 +150,8 @@
 	ethic="ethic_fanatic_xenophile"
 	civics=
 	{
-		"civic_criminal_heritage"
 		"civic_indentured_assets"
+		"civic_crusader_spirit_corporate"
 	}
-	origin="origin_default"
+	origin="origin_treasure_hunters"
 }

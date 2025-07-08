@@ -45,14 +45,16 @@
 	advisor_voice_type="l_necroid_vir"
 	planet_name=
 	{
-		key="SPEC_Oxanalytor_planet"
+		key="Earth"
+		literal=yes
 	}
 	planet_class="pc_continental"
 	system_name=
 	{
-		key="SPEC_Oxanalytor_system"
+		key="Sol"
+		literal=yes
 	}
-	initializer="toxic_knights_start"
+	initializer="toxic_knights_sol_start"
 	graphical_culture="toxoid_01"
 	city_graphical_culture="toxoid_01"
 	empire_flag=

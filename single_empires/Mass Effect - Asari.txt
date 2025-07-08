@@ -40,8 +40,9 @@
 		species_bio="Mass Effect - Asari"
 		name_list="HUM4"
 		gender=female
-		trait="trait_nomadic"
-		trait="trait_communal"
+		trait="trait_malleable_genes"
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_unruly"
 	}
 	name=
 	{
@@ -187,5 +188,5 @@
 		"civic_pleasure_seekers"
 		"civic_idealistic_foundation"
 	}
-	origin="origin_star_slingshot"
+	origin="origin_evolutionary_predators"
 }

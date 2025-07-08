@@ -3,7 +3,7 @@
 	key="Phamysht Mandate"
 	ship_prefix=
 	{
-		key="PHA"
+		key="PHAM"
 		literal=yes
 	}
 	species=
@@ -40,12 +40,10 @@
 		species_bio="Star Control Origins - Phamysht"
 		name_list="NECROID1"
 		gender=not_set
-		trait="trait_perfected_genes"
-		trait="trait_deviants"
-		trait="trait_natural_sociologists"
+		trait="trait_malleable_genes"
 		trait="trait_decadent"
-		trait="trait_humanoid_existential_iteroparity"
-		trait="trait_strong"
+		trait="trait_permeable_skin"
+		trait="trait_unruly"
 	}
 	name=
 	{
@@ -95,7 +93,7 @@
 		key="Ela Rise"
 		literal=yes
 	}
-	planet_class="pc_tropical"
+	planet_class="pc_continental"
 	system_name=
 	{
 		key="Beta Ishikawa"
@@ -159,9 +157,7 @@
 		texture=3
 		attachment=0
 		clothes=0
-		trait="leader_trait_legendary_warmonger"
-		trait="leader_trait_legendary_pious_ascet"
-		trait="leader_trait_legendary_military_knowledge"
+		trait="trait_ruler_charismatic"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
@@ -176,5 +172,5 @@
 		"civic_death_cult"
 		"civic_pleasure_seekers"
 	}
-	origin="origin_legendary_leader"
+	origin="origin_evolutionary_predators"
 }

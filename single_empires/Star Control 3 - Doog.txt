@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 3 - Doog"
-		name_list="REP3"
+		name_list="REP4"
 		gender=not_set
 		trait="trait_slow_learners"
 		trait="trait_very_strong"

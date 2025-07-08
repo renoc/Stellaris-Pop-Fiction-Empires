@@ -40,6 +40,44 @@
 		name_list="HUMAN3"
 		gender=not_set
 		trait="trait_hive_mind"
+		trait="trait_invasive"
+		trait="trait_rooted"
+		trait="trait_genetic_memory"
+	}
+	secondary_species=
+	{
+		class="AQUATIC"
+		portrait="bio8"
+		species_name=
+		{
+			key="Wist"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Wisti"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Wist"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		name_list="PLANT4"
+		gender=not_set
+		trait="trait_hive_mind"
 		trait="trait_charismatic"
 	}
 	name=
@@ -95,7 +133,7 @@
 		key="SPEC_Lilarobius_system"
 	}
 	initializer=""
-	graphical_culture="plantoid_01"
+	graphical_culture="biogenesis_02"
 	city_graphical_culture="plantoid_01"
 	empire_flag=
 	{
@@ -128,7 +166,7 @@
 				literal=yes
 			}
 		}
-		portrait="pla17_f"
+		portrait="pla17"
 		texture=2
 		attachment=1
 		clothes=3
@@ -137,13 +175,13 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_spiritual_seekers_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=
 	{
-		"civic_hive_subspace_ephapse"
 		"civic_hive_empath"
+		"civic_hive_bodysnatcher"
 	}
 	origin="origin_fruitful"
 }

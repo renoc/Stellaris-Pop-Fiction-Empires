@@ -3,7 +3,8 @@
 	key="Clairconctlaran Unity"
 	ship_prefix=
 	{
-		key="ISS"
+		key="CNK"
+		literal=yes
 	}
 	species=
 	{
@@ -37,14 +38,15 @@
 			}
 		}
 		species_bio="Star Control 3 - Clairconclar"
-		name_list="HUM1"
+		name_list="HUM3"
 		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_lithoid_scintillating"
 		trait="trait_resilient"
-		trait="trait_humanoid_psychological_infertility"
 		trait="trait_strong"
+		trait="trait_sedentary"
+		trait="trait_slow_learners"
 	}
 	name=
 	{
@@ -94,7 +96,7 @@
 		key="Enkidu VII"
 		literal=yes
 	}
-	planet_class="pc_continental"
+	planet_class="pc_arctic"
 	system_name=
 	{
 		key="Enkidu"

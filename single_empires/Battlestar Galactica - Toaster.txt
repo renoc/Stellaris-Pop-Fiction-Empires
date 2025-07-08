@@ -1,9 +1,9 @@
-"Toasteran Eliminators"=
+"The Cylon Fleet"=
 {
-	key="Toasteran Eliminators"
+	key="The Cylon Fleet"
 	ship_prefix=
 	{
-		key="CYL"
+		key="FRAK"
 		literal=yes
 	}
 	species=
@@ -48,27 +48,8 @@
 	}
 	name=
 	{
-		key="%ADJECTIVE%"
-		variables=
-		{
-			
-			{
-				key="adjective"
-				value=
-				{
-					key="Toaster"
-				}
-			}
- 
-			{
-				key="1"
-				value=
-				{
-					key="Eliminators"
-				}
-			}
- 
-		}
+		key="The Cylon Fleet"
+		literal=yes
 	}
 	adjective=
 	{
@@ -88,17 +69,19 @@
 	}
 	authority="auth_machine_intelligence"
 	government="gov_machine_terminator"
-	advisor_voice_type="l_militarist"
+	advisor_voice_type="l_machine"
 	planet_name=
 	{
-		key="SPEC_Synthoid_planet"
+		key="Kobol"
+		literal=yes
 	}
 	planet_class="pc_continental"
 	system_name=
 	{
-		key="SPEC_Synthoid_system"
+		key="Gemenese"
+		literal=yes
 	}
-	initializer="custom_starting_init_02"
+	initializer=""
 	graphical_culture="necroid_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=
@@ -134,6 +117,7 @@
 		}
 		portrait="default_robot"
 		texture=1
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		trait="trait_ruler_feedback_loop"

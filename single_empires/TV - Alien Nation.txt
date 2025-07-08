@@ -86,7 +86,7 @@
 		key="Tencoo"
 		literal=yes
 	}
-	initializer="custom_starting_init_06"
+	initializer="custom_starting_init_04"
 	graphical_culture="humanoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag=
@@ -149,7 +149,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="necroids_room"
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"

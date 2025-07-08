@@ -96,7 +96,7 @@
 		key="B'hava'el"
 		literal=yes
 	}
-	initializer=""
+	initializer="deneb_system"
 	graphical_culture="plantoid_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=

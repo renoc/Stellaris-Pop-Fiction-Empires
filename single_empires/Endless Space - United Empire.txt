@@ -66,11 +66,6 @@
 		}
 	}
 	authority="auth_imperial"
-	flags=
-	{
-		"human_2"
-		"custom_start_screen"
-	}
 	government="gov_star_empire"
 	advisor_voice_type="l_the_soldier"
 	planet_name=

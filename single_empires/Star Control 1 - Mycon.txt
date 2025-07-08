@@ -23,7 +23,7 @@
 		}
 		species_bio="Star Control 1 - Mycon"
 		name_list="FUN2"
-		gender=not_set
+		gender=indeterminable
 		trait="trait_lithoid"
 		trait="trait_hive_mind"
 		trait="trait_lithoid_volatile_excretions"
@@ -99,7 +99,7 @@
 	}
 	ruler=
 	{
-		gender=female
+		gender=indeterminable
 		name=
 		{
 			full_names=
@@ -121,7 +121,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_fanatic_purifier_room"
+	room="organic_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=

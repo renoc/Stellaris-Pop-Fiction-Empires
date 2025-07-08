@@ -9,7 +9,7 @@
 	species=
 	{
 		class="HUM"
-		portrait="human"
+		portrait="cyb12"
 		species_name=
 		{
 			key="Androsynth"
@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 1 - Androsynth"
-		name_list="HUMAN3"
+		name_list="MACHINE_AGE1"
 		gender=not_set
 		trait="trait_clone_soldier_infertile"
 		trait="trait_intelligent"
@@ -88,7 +88,7 @@
 	}
 	authority="auth_democratic"
 	government="gov_direct_democracy"
-	advisor_voice_type="l_necroid_vir"
+	advisor_voice_type="l_cybernetic_vir"
 	planet_name=
 	{
 		key="SPEC_Akkano_planet"
@@ -152,7 +152,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="human_female_05"
+		portrait="cyb12"
 		texture=3
 		attachment=6
 		clothes=3
@@ -162,7 +162,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="lithoid_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_pacifist"
 	ethic="ethic_fanatic_materialist"
 	civics=

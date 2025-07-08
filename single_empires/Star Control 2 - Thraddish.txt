@@ -3,7 +3,8 @@
 	key="Thraddish Authority"
 	ship_prefix=
 	{
-		key="ISS"
+		key="TRD"
+		literal=yes
 	}
 	species=
 	{
@@ -39,6 +40,7 @@
 		species_bio="Star Control 2 - Thraddish"
 		name_list="MAM3"
 		gender=not_set
+		trait="trait_humanoid_existential_iteroparity"
 	}
 	name=
 	{

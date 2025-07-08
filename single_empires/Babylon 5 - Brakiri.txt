@@ -113,6 +113,7 @@
 		}
 		portrait="humanoid_02_female_01"
 		texture=1
+		evolution_mask=0
 		attachment=0
 		clothes=1
 		trait="trait_ruler_logistic_understanding"
@@ -120,7 +121,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_hive_mind_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_pacifist"
@@ -128,7 +129,7 @@
 	civics=
 	{
 		"civic_worker_coop"
-		"civic_private_healthcare_corporate"
+		"civic_astrometeorology_megacorp"
 	}
 	origin="origin_galactic_doorstep"
 }

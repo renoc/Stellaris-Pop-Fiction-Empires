@@ -29,6 +29,8 @@
 		name_list="NECROID4"
 		gender=not_set
 		trait="trait_latent_psionic"
+		trait="trait_inorganic_breath"
+		trait="trait_decadent"
 	}
 	name=
 	{

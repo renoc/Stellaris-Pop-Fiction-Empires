@@ -144,7 +144,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_fanatic_befrienders_room"
 	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"

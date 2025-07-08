@@ -9,7 +9,7 @@
 	species=
 	{
 		class="AQUATIC"
-		portrait="aqu3"
+		portrait="aqu2"
 		species_name=
 		{
 			key="Symbiont"
@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Trek - Trill"
-		name_list="NECROID1"
+		name_list="REP2"
 		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_talented"
@@ -173,7 +173,7 @@
 				}
 			}
 		}
-		portrait="aqu3"
+		portrait="aqu2"
 		texture=2
 		attachment=0
 		clothes=0

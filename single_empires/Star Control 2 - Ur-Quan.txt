@@ -40,6 +40,8 @@
 		species_bio="Star Control 2 - Ur-Quan"
 		name_list="MOL3"
 		gender=not_set
+		trait="trait_unplugged_cybernetic_positives_3"
+		trait="trait_unplugged_cybernetic_negatives_3"
 		trait="trait_solitary"
 		trait="trait_venerable"
 		trait="trait_nonadaptive"
@@ -79,7 +81,7 @@
 	{
 		key="SPEC_Karabnar_system"
 	}
-	initializer="custom_starting_init_01"
+	initializer="origin_unplugged_starting_system_init"
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="molluscoid_01"
 	empire_flag=
@@ -141,5 +143,5 @@
 		"civic_scavengers"
 		"civic_citizen_service"
 	}
-	origin="origin_broken_shackles"
+	origin="origin_unplugged"
 }

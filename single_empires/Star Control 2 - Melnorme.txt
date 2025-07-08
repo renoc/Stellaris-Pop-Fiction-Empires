@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 2 - Melnorme"
-		name_list="NECROID2"
+		name_list="AQUATIC4"
 		gender=not_set
 		trait="trait_extremely_adaptive"
 		trait="trait_thrifty"
@@ -87,7 +87,7 @@
 		}
 	}
 	authority="auth_corporate"
-	government="gov_megacorporation"
+	government="gov_storm_chasers"
 	advisor_voice_type="l_slick_corp"
 	planet_name=
 	{
@@ -102,7 +102,7 @@
 	}
 	initializer=""
 	graphical_culture="lithoid_01"
-	city_graphical_culture="fungoid_01"
+	city_graphical_culture="cybernetics_01"
 	empire_flag=
 	{
 		icon=
@@ -160,8 +160,8 @@
 	ethic="ethic_materialist"
 	civics=
 	{
-		"civic_private_prospectors"
-		"civic_corporate_scavengers"
+		"civic_corporate_galactic_curators"
+		"civic_corporate_crowdsourcing"
 	}
-	origin="origin_doomsday"
+	origin="origin_storm_chasers"
 }

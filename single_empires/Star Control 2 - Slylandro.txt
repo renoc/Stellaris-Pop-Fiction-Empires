@@ -75,7 +75,7 @@
 	{
 		key="SPEC_DAAR_planet"
 	}
-	planet_class="pc_ocean"
+	planet_class="pc_desert"
 	system_name=
 	{
 		key="SPEC_DAAR_system"

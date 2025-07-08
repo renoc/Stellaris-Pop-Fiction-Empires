@@ -52,11 +52,6 @@
 		}
 	}
 	authority="auth_democratic"
-	flags=
-	{
-		"human_1"
-		"custom_start_screen"
-	}
 	government="gov_representative_democracy"
 	advisor_voice_type="l_the_diplomat"
 	planet_name=
@@ -111,7 +106,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=yes
 	room="personality_federation_builders_room"
-	spawn_enabled=yes
+	spawn_enabled=always
 	ethic="ethic_fanatic_egalitarian"
 	ethic="ethic_xenophile"
 	civics=
@@ -119,5 +114,5 @@
 		"civic_beacon_of_liberty"
 		"civic_idealistic_foundation"
 	}
-	origin="origin_common_ground"
+	origin="origin_starlit_citadel"
 }

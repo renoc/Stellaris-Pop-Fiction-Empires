@@ -38,8 +38,8 @@
 			}
 		}
 		species_bio="Star Trek - Jem Ha'dar"
-		name_list="HUM1"
-		gender=not_set
+		name_list="LITHOID3"
+		gender=male
 		trait="trait_clone_soldier_infertile"
 		trait="trait_very_strong"
 		trait="trait_fleeting"
@@ -148,7 +148,7 @@
 	}
 	ruler=
 	{
-		gender=female
+		gender=male
 		name=
 		{
 			full_names=
@@ -176,8 +176,9 @@
 				}
 			}
 		}
-		portrait="humanoid_hp_01_female"
+		portrait="humanoid_hp_01"
 		texture=0
+		evolution_mask=0
 		attachment=0
 		clothes=3
 		trait="trait_ruler_warlike"

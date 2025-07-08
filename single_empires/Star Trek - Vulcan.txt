@@ -175,5 +175,5 @@
 		"civic_inwards_perfection"
 		"civic_technocracy"
 	}
-	origin="origin_default"
+	origin="origin_storm_chasers"
 }

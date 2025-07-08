@@ -42,7 +42,8 @@
 		gender=not_set
 		trait="trait_lithoid"
 		trait="trait_conservational"
-		trait="trait_nomadic"
+		trait="trait_fleeting_lithoid"
+		trait="trait_lithoid_scintillating"
 	}
 	name=
 	{
@@ -137,7 +138,7 @@
 		}
 	}
 	authority="auth_democratic"
-	government="gov_direct_democracy"
+	government="gov_theocratic_republic"
 	advisor_voice_type="l_the_diplomat"
 	planet_name=
 	{
@@ -213,13 +214,13 @@
 	ignore_portrait_duplication=no
 	room="necroids_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
-	ethic="ethic_materialist"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
 	civics=
 	{
-		"civic_beacon_of_liberty"
-		"civic_free_haven"
+		"civic_functional_architecture"
+		"civic_ascensionists"
 	}
-	origin="origin_mechanists"
+	origin="origin_cybernetic_creed"
 }

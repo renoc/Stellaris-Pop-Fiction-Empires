@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 3 - Harika"
-		name_list="REP3"
+		name_list="REP1"
 		gender=not_set
 		trait="trait_necrophage"
 		trait="trait_quarrelsome"
@@ -115,7 +115,7 @@
 	{
 		key="SPEC_QellNudar_planet"
 	}
-	planet_class="pc_continental"
+	planet_class="pc_tundra"
 	system_name=
 	{
 		key="SPEC_QellNudar_system"

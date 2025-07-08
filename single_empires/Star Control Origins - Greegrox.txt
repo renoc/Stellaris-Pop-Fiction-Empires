@@ -9,7 +9,7 @@
 	species=
 	{
 		class="AQUATIC"
-		portrait="aqu1"
+		portrait="aqu10"
 		species_name=
 		{
 			key="Greegrox"
@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control Origins - Greegrox"
-		name_list="AQUATIC3"
+		name_list="AQUATIC4"
 		gender=not_set
 		trait="trait_hive_mind"
 		trait="trait_nomadic"
@@ -99,7 +99,7 @@
 		literal=yes
 	}
 	initializer=""
-	graphical_culture="aquatic_01"
+	graphical_culture="biogenesis_01"
 	city_graphical_culture="aquatic_01"
 	empire_flag=
 	{
@@ -132,7 +132,7 @@
 				literal=yes
 			}
 		}
-		portrait="aqu1_f"
+		portrait="aqu10"
 		texture=0
 		attachment=0
 		clothes=0

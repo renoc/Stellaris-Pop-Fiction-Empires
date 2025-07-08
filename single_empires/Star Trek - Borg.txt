@@ -9,7 +9,7 @@
 	species=
 	{
 		class="MACHINE"
-		portrait="tox_machine"
+		portrait="cyb_machine"
 		species_name=
 		{
 			key="The Borg"
@@ -26,7 +26,7 @@
 			literal=yes
 		}
 		species_bio="Star Trek - Borg"
-		name_list="MACHINE3"
+		name_list="MACHINE1"
 		gender=not_set
 		trait="trait_machine_unit"
 		trait="trait_robot_learning_algorithms"
@@ -37,7 +37,7 @@
 	secondary_species=
 	{
 		class="TOX"
-		portrait="tox6"
+		portrait="tox13"
 		species_name=
 		{
 			key="Drone"
@@ -99,7 +99,7 @@
 	{
 		key="SPEC_Zero-Zero-One_planet"
 	}
-	planet_class="pc_continental"
+	planet_class="pc_arctic"
 	system_name=
 	{
 		key="SPEC_Zero-Zero-One_system"
@@ -138,10 +138,11 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="tox_machine"
-		texture=0
+		portrait="cyb_machine"
+		texture=4
+		evolution_mask=0
 		attachment=0
-		clothes=2
+		clothes=0
 		trait="trait_ruler_logistic_understanding"
 		leader_class="scientist"
 	}

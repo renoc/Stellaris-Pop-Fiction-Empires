@@ -9,7 +9,7 @@
 	species=
 	{
 		class="MACHINE"
-		portrait="sd_art_robot"
+		portrait="synth_machine_03"
 		species_name=
 		{
 			key="Daktaklakpak"
@@ -98,7 +98,7 @@
 	}
 	initializer=""
 	graphical_culture="mammalian_01"
-	city_graphical_culture="mammalian_01"
+	city_graphical_culture="cybernetics_01"
 	empire_flag=
 	{
 		icon=
@@ -150,8 +150,9 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="sd_art_robot"
-		texture=3
+		portrait="synth_machine_03"
+		texture=2
+		evolution_mask=0
 		attachment=0
 		clothes=0
 		trait="trait_ruler_logistic_understanding"
@@ -159,7 +160,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_metalheads_room"
+	room="ethic_ai_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=

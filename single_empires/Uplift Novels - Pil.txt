@@ -1,0 +1,196 @@
+"Great Pil Union"=
+{
+	key="Great Pil Union"
+	ship_prefix=
+	{
+		key="PIL"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam6"
+		species_name=
+		{
+			key="Pil"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Pila"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Pil"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Uplift Novels - Pil"
+		name_list="ART3"
+		gender=not_set
+		trait="trait_charismatic"
+	}
+	name=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Great"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="%ADJECTIVE%"
+								variables=
+								{
+									
+									{
+										key="adjective"
+										value=
+										{
+											key="Pil"
+										}
+									}
+ 
+									{
+										key="1"
+										value=
+										{
+											key="Union"
+										}
+									}
+ 
+								}
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
+	}
+	adjective=
+	{
+		key="%ADJECTIVE%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Pil"
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_constitutional_dictatorship"
+	advisor_voice_type="l_xenophile"
+	planet_name=
+	{
+		key="Kisa"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="Soro"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="plantoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_43.dds"
+		}
+		colors=
+		{
+			"bright_purple"
+			"dark_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="%LEADER_2%"
+				variables=
+				{
+					
+					{
+						key="1"
+						value=
+						{
+							key="ART3_CHR_Rakex"
+						}
+					}
+ 
+					{
+						key="2"
+						value=
+						{
+							key="ART3_CHR_Huketkin"
+						}
+					}
+ 
+				}
+			}
+			use_full_regnal_name=yes
+		}
+		portrait="mam6"
+		texture=0
+		attachment=0
+		clothes=5
+		trait="trait_ruler_charismatic"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_spiritual_seekers_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_xenophobe"
+	civics=
+	{
+		"civic_diplomatic_corps"
+		"civic_cutthroat_politics"
+	}
+	origin="origin_default"
+}

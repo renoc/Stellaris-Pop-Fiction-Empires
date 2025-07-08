@@ -98,7 +98,7 @@
 		key="Omicron Persei"
 		literal=yes
 	}
-	initializer="custom_starting_init_02"
+	initializer=""
 	graphical_culture="arthropoid_01"
 	city_graphical_culture="reptilian_01"
 	empire_flag=

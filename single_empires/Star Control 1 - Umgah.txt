@@ -100,7 +100,7 @@
 	}
 	initializer=""
 	graphical_culture="toxoid_01"
-	city_graphical_culture="molluscoid_01"
+	city_graphical_culture="biogenesis_02"
 	empire_flag=
 	{
 		icon=

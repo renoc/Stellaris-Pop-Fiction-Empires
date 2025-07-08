@@ -1,6 +1,6 @@
-"Cylon Hierarchy"=
+"The Lords of Kobol"=
 {
-	key="Cylon Hierarchy"
+	key="The Lords of Kobol"
 	ship_prefix=
 	{
 		key="ISS"
@@ -8,7 +8,7 @@
 	species=
 	{
 		class="REP"
-		portrait="rep9"
+		portrait="rep3"
 		species_name=
 		{
 			key="Cylon"
@@ -46,27 +46,8 @@
 	}
 	name=
 	{
-		key="format.imp_mat.3"
-		variables=
-		{
-			
-			{
-				key="imperial_mat"
-				value=
-				{
-					key="Hierarchy"
-				}
-			}
- 
-			{
-				key="This.GetSpeciesName"
-				value=
-				{
-					key="Cylon"
-				}
-			}
- 
-		}
+		key="The Lords of Kobol"
+		literal=yes
 	}
 	adjective=
 	{
@@ -106,7 +87,7 @@
 	}
 	authority="auth_imperial"
 	government="gov_despotic_hegemony"
-	advisor_voice_type="l_the_soldier"
+	advisor_voice_type="l_cybernetic_vir"
 	planet_name=
 	{
 		key="SPEC_Netraxi_planet"
@@ -170,7 +151,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="rep9"
+		portrait="rep3"
 		texture=2
 		attachment=0
 		clothes=4

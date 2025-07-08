@@ -79,9 +79,8 @@
 		name_list="MAM3"
 		gender=not_set
 		trait="trait_syncretic_proles"
-		trait="trait_slow_learners"
-		trait="trait_humanoid_jinxed"
 		trait="trait_very_strong"
+		trait="trait_nascent_stage"
 	}
 	name=
 	{
@@ -179,7 +178,7 @@
 	civics=
 	{
 		"civic_hyperspace_specialty"
-		"civic_corvee_system"
+		"civic_beastmasters"
 	}
 	origin="origin_syncretic_evolution"
 }

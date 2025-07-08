@@ -80,10 +80,10 @@
 		name_list="HUM2"
 		gender=not_set
 		trait="trait_syncretic_proles"
-		trait="trait_slow_learners"
 		trait="trait_rapid_breeders"
 		trait="trait_adaptive"
 		trait="trait_humanoid_psychological_infertility"
+		trait="trait_solitary"
 	}
 	name=
 	{
@@ -173,7 +173,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_hegemonic_imperialists_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophobe"

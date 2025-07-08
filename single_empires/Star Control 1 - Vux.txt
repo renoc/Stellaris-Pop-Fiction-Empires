@@ -38,7 +38,7 @@
 			}
 		}
 		species_bio="Star Control 1 - Vux"
-		name_list="MOL4"
+		name_list="MAM2"
 		gender=not_set
 		trait="trait_perfected_genes"
 		trait="trait_noxious"
@@ -146,7 +146,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="personality_democratic_crusaders_room"
 	spawn_enabled=always
 	ethic="ethic_fanatic_xenophobe"
 	ethic="ethic_militarist"

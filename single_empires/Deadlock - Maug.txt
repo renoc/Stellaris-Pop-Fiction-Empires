@@ -40,12 +40,11 @@
 		species_bio="Deadlock - Maug"
 		name_list="TOX1"
 		gender=not_set
-		trait="trait_survivor"
+		trait="trait_pathogenic_genes"
 		trait="trait_weak"
 		trait="trait_humanoid_jinxed"
 		trait="trait_intelligent"
-		trait="trait_slow_breeders"
-		trait="trait_extremely_adaptive"
+		trait="trait_natural_engineers"
 	}
 	name=
 	{
@@ -173,5 +172,5 @@
 		"civic_relentless_industrialists"
 		"civic_technocracy"
 	}
-	origin="origin_post_apocalyptic"
+	origin="origin_synthetic_fertility"
 }

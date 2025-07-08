@@ -26,7 +26,7 @@
 			literal=yes
 		}
 		species_bio="Star Control 3 - K'tang"
-		name_list="ART4"
+		name_list="MAM3"
 		gender=not_set
 		trait="trait_weak"
 		trait="trait_nonadaptive"
@@ -57,7 +57,7 @@
 		}
 	}
 	authority="auth_dictatorial"
-	government="gov_totalitarian_regime"
+	government="gov_theocratic_dictatorship"
 	advisor_voice_type="l_authoritarian"
 	planet_name=
 	{
@@ -137,11 +137,11 @@
 	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"
-	ethic="ethic_materialist"
+	ethic="ethic_spiritualist"
 	civics=
 	{
 		"civic_pompous_purists"
 		"civic_selective_kinship"
 	}
-	origin="origin_mechanists"
+	origin="origin_cybernetic_creed"
 }

@@ -23,7 +23,7 @@
 		}
 		species_bio="Star Control 1 - Syreen"
 		name_list="HUM1"
-		gender=not_set
+		gender=female
 		trait="trait_nomadic"
 		trait="trait_charismatic"
 		trait="trait_slow_breeders"
@@ -74,7 +74,7 @@
 		key="Beatlejuice"
 		literal=yes
 	}
-	initializer="custom_starting_init_06"
+	initializer=""
 	graphical_culture="lithoid_01"
 	city_graphical_culture="mammalian_01"
 	empire_flag=

@@ -98,7 +98,7 @@
 		key="Qo'noS"
 		literal=yes
 	}
-	initializer="custom_starting_init_06"
+	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="necroid_01"
 	empire_flag=

@@ -3,7 +3,8 @@
 	key="Yehat Star Dynasty"
 	ship_prefix=
 	{
-		key="ISS"
+		key="HAT"
+		literal=yes
 	}
 	species=
 	{
@@ -49,7 +50,7 @@
 	{
 		key="Helvan-Jull"
 	}
-	initializer="custom_starting_init_03"
+	initializer=""
 	graphical_culture="avian_01"
 	city_graphical_culture="avian_01"
 	empire_flag=

@@ -199,7 +199,7 @@
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
 	room="personality_democratic_crusaders_room"
-	spawn_enabled=always
+	spawn_enabled=yes
 	ethic="ethic_fanatic_xenophile"
 	ethic="ethic_spiritualist"
 	civics=

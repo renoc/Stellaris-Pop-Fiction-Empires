@@ -3,7 +3,8 @@
 	key="Ilwrath Star Dynasty"
 	ship_prefix=
 	{
-		key="ISS"
+		key="ILL"
+		literal=yes
 	}
 	species=
 	{
@@ -127,7 +128,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="organic_room"
+	room="biogenesis_01_room"
 	spawn_enabled=always
 	ethic="ethic_xenophobe"
 	ethic="ethic_fanatic_spiritualist"

@@ -118,8 +118,8 @@
 		key="SPEC_Myrran_system"
 	}
 	initializer=""
-	graphical_culture="arthropoid_01"
-	city_graphical_culture="arthropoid_01"
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="biogenesis_01"
 	empire_flag=
 	{
 		icon=
@@ -160,7 +160,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="organic_room"
+	room="biogenesis_01_room"
 	spawn_enabled=always
 	ethic="ethic_gestalt_consciousness"
 	civics=

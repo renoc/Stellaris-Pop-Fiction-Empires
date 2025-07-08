@@ -8,8 +8,8 @@
 	}
 	species=
 	{
-		class="PLANT"
-		portrait="pla17"
+		class="HUM"
+		portrait="humanoid_hp_16"
 		species_name=
 		{
 			key="Arilou"
@@ -37,7 +37,7 @@
  
 			}
 		}
-		species_bio="Star Control 2 - Arilou"
+		species_bio="Star Control 1 - Arilou"
 		name_list="PLANT4"
 		gender=not_set
 		trait="trait_humanoid_psychological_infertility"
@@ -67,7 +67,7 @@
 		}
 	}
 	authority="auth_oligarchic"
-	government="gov_irenic_bureaucracy"
+	government="gov_dimensional_covenant"
 	advisor_voice_type="l_pacifist"
 	planet_name=
 	{
@@ -134,23 +134,25 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="pla17_f"
-		texture=0
+		portrait="humanoid_hp_16_female"
+		texture=2
+		evolution_mask=0
 		attachment=0
-		clothes=3
+		clothes=0
 		trait="trait_ruler_eye_for_talent"
 		leader_class="official"
 	}
-	spawn_as_fallen=no
+	spawn_as_fallen=yes
 	ignore_portrait_duplication=no
 	room="necroids_room"
 	spawn_enabled=always
-	ethic="ethic_xenophobe"
-	ethic="ethic_fanatic_pacifist"
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
 	civics=
 	{
-		"civic_inwards_perfection"
 		"civic_hyperspace_specialty"
+		"civic_dimensional_worship"
 	}
 	origin="origin_riftworld"
 }

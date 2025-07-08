@@ -3,12 +3,13 @@
 	key="Kazon Order"
 	ship_prefix=
 	{
-		key="ISS"
+		key="KAZ"
+		literal=yes
 	}
 	species=
 	{
-		class="HUM"
-		portrait="humanoid_02"
+		class="REP"
+		portrait="rep8"
 		species_name=
 		{
 			key="Kazon"
@@ -75,7 +76,7 @@
 	{
 		key="SPEC_Kobarian_system"
 	}
-	initializer="custom_starting_init_06"
+	initializer="custom_starting_init_04"
 	graphical_culture="fungoid_01"
 	city_graphical_culture="humanoid_01"
 	empire_flag=
@@ -129,10 +130,11 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="humanoid_02_male_01"
+		portrait="rep8"
 		texture=0
-		attachment=3
-		clothes=4
+		evolution_mask=0
+		attachment=0
+		clothes=3
 		ruler_title=
 		{
 			key="Maje"
@@ -143,7 +145,7 @@
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="default_room"
+	room="scrappy_room"
 	spawn_enabled=always
 	ethic="ethic_authoritarian"
 	ethic="ethic_xenophobe"

@@ -3,7 +3,8 @@
 	key="Supox Utricularia"
 	ship_prefix=
 	{
-		key="ISS"
+		key="SPX"
+		literal=yes
 	}
 	species=
 	{
@@ -87,11 +88,12 @@
 		texture=0
 		attachment=0
 		clothes=0
+		trait="leader_trait_principled"
 		leader_class="official"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="organic_room"
+	room="wilderness_room"
 	spawn_enabled=always
 	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
