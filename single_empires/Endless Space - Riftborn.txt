@@ -296,6 +296,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Riftborn must escape the Blight which is destroying their home."
 		name_list="LITHOID3"
 		gender=not_set

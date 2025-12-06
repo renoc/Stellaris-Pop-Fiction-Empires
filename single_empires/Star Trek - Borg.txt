@@ -1,6 +1,6 @@
-"Borg Assimilators"=
+"The Borg Collective"=
 {
-	key="Borg Assimilators"
+	key="The Borg Collective"
 	ship_prefix=
 	{
 		key="BRG"
@@ -62,31 +62,8 @@
 	}
 	name=
 	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="1"
-				value=
-				{
-					key="Borg"
-					variables=
-					{
-						
-						{
-							key="1"
-							value=
-							{
-								key="Assimilators"
-							}
-						}
- 
-					}
-				}
-			}
- 
-		}
+		key="The Borg Collective"
+		literal=yes
 	}
 	adjective=
 	{

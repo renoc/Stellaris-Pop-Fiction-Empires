@@ -39,10 +39,11 @@
 		species_bio="Battlestar Galactica - Cylon"
 		name_list="REP2"
 		gender=indeterminable
-		trait="trait_nonadaptive"
-		trait="trait_quick_learners"
-		trait="trait_venerable"
 		trait="trait_humanoid_jinxed"
+		trait="trait_weak"
+		trait="trait_chromalogs"
+		trait="trait_nonadaptive"
+		trait="trait_seasonal_dormancy"
 	}
 	name=
 	{

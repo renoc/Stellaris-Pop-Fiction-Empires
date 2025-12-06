@@ -1,6 +1,6 @@
-"Orz Multistellar"=
+"Orz Multitude"=
 {
-	key="Orz Multistellar"
+	key="Orz Multitude"
 	ship_prefix=
 	{
 		key="ORZ"
@@ -24,20 +24,45 @@
 		species_bio="Star Control 2 - Orz"
 		name_list="TOX2"
 		gender=not_set
+		trait="trait_hive_mind"
 		trait="trait_nonadaptive"
 		trait="trait_charismatic"
-		trait="trait_intelligent"
+		trait="trait_humanoid_existential_iteroparity"
 	}
 	name=
 	{
-		key="Orz Multistellar"
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Orz"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Multitude"
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
 	}
 	adjective=
 	{
 		key="Orz"
 	}
-	authority="auth_corporate"
-	government="gov_megacorporation"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
 	advisor_voice_type="l_slick_corp"
 	planet_name=
 	{
@@ -92,12 +117,11 @@
 	ignore_portrait_duplication=no
 	room="personality_migrating_flock_room"
 	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_gestalt_consciousness"
 	civics=
 	{
-		"civic_naval_contractors"
-		"civic_ruthless_competition"
+		"civic_void_hive"
+		"civic_hive_subspace_ephapse"
 	}
 	origin="origin_riftworld"
 }

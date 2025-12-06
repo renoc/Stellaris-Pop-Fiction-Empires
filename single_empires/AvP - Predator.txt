@@ -41,10 +41,10 @@
 		name_list="ART3"
 		gender=not_set
 		trait="trait_strong"
-		trait="trait_nomadic"
 		trait="trait_humanoid_existential_iteroparity"
 		trait="trait_decadent"
 		trait="trait_solitary"
+		trait="trait_camouflage"
 	}
 	name=
 	{

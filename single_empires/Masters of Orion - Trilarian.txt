@@ -1,55 +1,46 @@
-"Abbai Matriarchate"=
+"Trilarian Shoal"=
 {
-	key="Abbai Matriarchate"
+	key="Trilarian Shoal"
 	ship_prefix=
 	{
-		key="ABI"
+		key="TRI"
 		literal=yes
 	}
 	species=
 	{
 		class="AQUATIC"
-		portrait="pro1"
+		portrait="aqu6"
 		species_name=
 		{
-			key="Abbai"
+			key="Trilarian"
 			literal=yes
 		}
 		species_plural=
 		{
-			key="Abbais"
+			key="Triliarians"
 			literal=yes
 		}
 		species_adjective=
 		{
-			key="%ADJECTIVE%"
-			variables=
-			{
-				
-				{
-					key="adjective"
-					value=
-					{
-						key="Abbai"
-						literal=yes
-					}
-				}
- 
-			}
+			key="Trilarian"
+			literal=yes
 		}
-		species_bio="Babylon 5 - Abbai"
-		name_list="AQUATIC3"
-		gender=not_set
+		species_bio="Masters of Orion - Trilarian"
+		name_list="AQUATIC1"
+		gender=male
 		trait="trait_aquatic"
+		trait="trait_slow_breeders"
+		trait="trait_natural_physicists"
+		trait="trait_nomadic"
 	}
 	name=
 	{
-		key="Abbai Matriarchate"
+		key="Trilarian Shoal"
 		literal=yes
 	}
 	adjective=
 	{
-		key="%ADJECTIVE%"
+		key="%ADJ%"
 		variables=
 		{
 			
@@ -57,7 +48,8 @@
 				key="adjective"
 				value=
 				{
-					key="Abbai"
+					key="Trilarian"
+					literal=yes
 				}
 			}
  
@@ -65,76 +57,75 @@
 	}
 	authority="auth_oligarchic"
 	government="gov_theocratic_oligarchy"
-	advisor_voice_type="l_xenophile"
+	advisor_voice_type="l_pacifist"
 	planet_name=
 	{
-		key="Ssumssha"
+		key="Trilar"
 		literal=yes
 	}
 	planet_class="pc_ocean"
 	system_name=
 	{
-		key="Abba"
+		key="Trilar"
 		literal=yes
 	}
-	initializer=""
+	initializer="ocean_paradise_start"
 	graphical_culture="aquatic_01"
 	city_graphical_culture="aquatic_01"
 	empire_flag=
 	{
 		icon=
 		{
-			category="pirate"
-			file="flag_pirate_1.dds"
+			category="aquatic"
+			file="aquatic_04.dds"
 		}
 		background=
 		{
 			category="backgrounds"
-			file="sinus.dds"
+			file="flag_BG_10.dds"
 		}
 		colors=
 		{
-			"intense_burgundy"
-			"indigo"
+			"light_indigo"
+			"intense_blue"
 			"black"
 			"null"
 		}
 	}
 	ruler=
 	{
-		gender=female
+		gender=male
 		name=
 		{
 			full_names=
 			{
-				key="AQUATIC3_CHR_Bodashama"
+				key="Stinger"
+				literal=yes
 			}
-			use_full_regnal_name=yes
 		}
-		portrait="pro1_f"
-		texture=5
-		evolution_mask=0
+		portrait="aqu6_m"
+		texture=1
 		attachment=0
-		clothes=1
-		ruler_title_female=
+		clothes=0
+		ruler_title=
 		{
-			key="Natar"
+			key="Dictator"
 			literal=yes
 		}
-		trait="trait_ruler_eye_for_talent"
-		leader_class="official"
+		trait="trait_ruler_logistic_understanding"
+		leader_class="commander"
 	}
 	spawn_as_fallen=no
 	ignore_portrait_duplication=no
-	room="personality_decadent_hierarchy_room"
+	room="necroids_room"
 	spawn_enabled=always
-	ethic="ethic_egalitarian"
 	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
 	ethic="ethic_spiritualist"
 	civics=
 	{
-		"civic_idealistic_foundation"
 		"civic_anglers"
+		"civic_hyperspace_specialty"
 	}
-	origin="origin_default"
+	origin="origin_ocean_paradise"
 }

@@ -280,6 +280,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The computer is your friend. Happiness is manditory."
 		name_list="MACHINE1"
 		gender=not_set

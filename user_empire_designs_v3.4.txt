@@ -41,10 +41,10 @@
 		name_list="ART3"
 		gender=not_set
 		trait="trait_strong"
-		trait="trait_nomadic"
 		trait="trait_humanoid_existential_iteroparity"
 		trait="trait_decadent"
 		trait="trait_solitary"
+		trait="trait_camouflage"
 	}
 	name=
 	{
@@ -429,8 +429,8 @@
 	}
 	species=
 	{
-		class="HUM"
-		portrait="humanoid_hp_16"
+		class="AQUATIC"
+		portrait="pro1"
 		species_name=
 		{
 			key="Abbai"
@@ -532,10 +532,11 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="humanoid_hp_16_female"
-		texture=1
+		portrait="pro1_f"
+		texture=5
+		evolution_mask=0
 		attachment=0
-		clothes=4
+		clothes=1
 		ruler_title_female=
 		{
 			key="Natar"
@@ -569,7 +570,7 @@
 	species=
 	{
 		class="HUM"
-		portrait="humanoid_02"
+		portrait="cyb8"
 		species_name=
 		{
 			key="Brakiri"
@@ -671,7 +672,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="humanoid_02_female_01"
+		portrait="cyb8_f"
 		texture=1
 		evolution_mask=0
 		attachment=0
@@ -1954,10 +1955,11 @@
 		species_bio="Battlestar Galactica - Cylon"
 		name_list="REP2"
 		gender=indeterminable
-		trait="trait_nonadaptive"
-		trait="trait_quick_learners"
-		trait="trait_venerable"
 		trait="trait_humanoid_jinxed"
+		trait="trait_weak"
+		trait="trait_chromalogs"
+		trait="trait_nonadaptive"
+		trait="trait_seasonal_dormancy"
 	}
 	name=
 	{
@@ -3419,8 +3421,8 @@
 	}
 	species=
 	{
-		class="HUM"
-		portrait="humanoid_hp_16"
+		class="AQUATIC"
+		portrait="bio8"
 		species_name=
 		{
 			key="Tolnan"
@@ -3568,10 +3570,11 @@
 				literal=yes
 			}
 		}
-		portrait="humanoid_hp_16_male"
-		texture=0
+		portrait="bio8_m"
+		texture=2
+		evolution_mask=0
 		attachment=0
-		clothes=1
+		clothes=0
 		trait="trait_ruler_charismatic"
 		leader_class="official"
 	}
@@ -4930,6 +4933,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Horatio are Horatio, and intend to expand until the galaxy is as gorgeous as they are."
 		name_list="MACHINE1"
 		gender=male
@@ -5229,6 +5260,34 @@ The Horatio are Horatio, and intend to expand until the galaxy is as gorgeous as
 			}
 		}
 		species_bio="Endless Space - Riftborn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -6462,6 +6521,381 @@ The Riftborn must escape the Blight which is destroying their home."
 	}
 	origin="origin_default"
 }
+"Brunnen-G"=
+{
+	key="Brunnen-G"
+	ship_prefix=
+	{
+		key="BRU"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_05"
+		species_name=
+		{
+			key="Brunnen"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Brunnen"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Brunnen"
+			literal=yes
+		}
+		species_bio="Lexx - BrunnenG"
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_charismatic"
+	}
+	name=
+	{
+		key="Brunnen-G"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Brunnen"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_theocratic_republic"
+	advisor_voice_type="l_the_soldier"
+	planet_name=
+	{
+		key="Brunnis-1"
+		literal=yes
+	}
+	planet_class="pc_alpine"
+	system_name=
+	{
+		key="Brunnis"
+		literal=yes
+	}
+	initializer="custom_starting_init_03"
+	graphical_culture="toxoid_01"
+	city_graphical_culture="toxoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="necroid"
+			file="necroid_09.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_20.dds"
+		}
+		colors=
+		{
+			"intense_pink"
+			"intense_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Saki"
+				literal=yes
+			}
+		}
+		portrait="humanoid_05_female_01"
+		texture=0
+		evolution_mask=0
+		attachment=29
+		clothes=2
+		trait="trait_ruler_eye_for_talent"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_fanatic_befrienders_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_heroic_tales"
+		"civic_memorialist"
+	}
+	origin="origin_primal_calling"
+}
+"Fire"=
+{
+	key="Fire"
+	ship_prefix=
+	{
+		key="FYR"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_hp_02"
+		species_name=
+		{
+			key="Hog"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Hogs"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Hog"
+			literal=yes
+		}
+		species_bio="Lexx - Fire"
+		name_list="HUMAN2"
+		gender=not_set
+		trait="trait_unruly"
+		trait="trait_quarrelsome"
+		trait="trait_deviants"
+		trait="trait_extremely_adaptive"
+		trait="trait_humanoid_existential_iteroparity"
+	}
+	name=
+	{
+		key="Fire"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Fire"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	advisor_voice_type="l_tox_vir"
+	planet_name=
+	{
+		key="Hogtown"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="K"
+		literal=yes
+	}
+	initializer="fear_of_the_dark_system"
+	graphical_culture="mammalian_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_04.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="rounded_middle.dds"
+		}
+		colors=
+		{
+			"red"
+			"beige"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Prince"
+				literal=yes
+			}
+		}
+		portrait="humanoid_hp_02"
+		texture=0
+		evolution_mask=0
+		attachment=16
+		clothes=0
+		trait="trait_ruler_eye_for_talent"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="scrappy_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_barbaric_despoilers"
+		"civic_cutthroat_politics"
+	}
+	origin="origin_fear_of_the_dark"
+}
+"Insect Civilisation"=
+{
+	key="Insect Civilisation"
+	ship_prefix=
+	{
+		key="INS"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art14"
+		species_name=
+		{
+			key="Insectoid"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Insects"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Insectian"
+			literal=yes
+		}
+		species_bio="Lexx - Insects"
+		name_list="ART4"
+		gender=not_set
+		trait="trait_hive_mind"
+		trait="trait_malleable_genes"
+		trait="trait_slow_learners"
+		trait="trait_solitary"
+		trait="trait_nascent_stage"
+	}
+	name=
+	{
+		key="Insect Civilisation"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Insect"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_hive_mind"
+	government="gov_devouring_swarm"
+	advisor_voice_type="l_hivemind"
+	planet_name=
+	{
+		key="SPEC_Cithin_planet"
+	}
+	planet_class="pc_arctic"
+	system_name=
+	{
+		key="SPEC_Cithin_system"
+	}
+	initializer=""
+	graphical_culture="biogenesis_01"
+	city_graphical_culture="biogenesis_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_39.dds"
+		}
+		colors=
+		{
+			"dark_brown"
+			"swamp_green"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Giga Shadow"
+				literal=yes
+			}
+		}
+		portrait="art14"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="biogenesis_01_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_devouring_swarm"
+		"civic_hive_cordyceptic_drones"
+	}
+	origin="origin_evolutionary_predators"
+}
 "Lyekkan Consciousness"=
 {
 	key="Lyekkan Consciousness"
@@ -6648,6 +7082,664 @@ The Riftborn must escape the Blight which is destroying their home."
 		"civic_hive_bodysnatcher"
 	}
 	origin="origin_fruitful"
+}
+"Mantrid Drones"=
+{
+	key="Mantrid Drones"
+	ship_prefix=
+	{
+		key="MNT"
+		literal=yes
+	}
+	species=
+	{
+		class="MACHINE"
+		portrait="synth_machine_02"
+		species_name=
+		{
+			key="Arm"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Arms"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="%ADJECTIVE%"
+			variables=
+			{
+				
+				{
+					key="adjective"
+					value=
+					{
+						key="Arm"
+						literal=yes
+					}
+				}
+ 
+			}
+		}
+		species_bio="Lexx - Mantrid"
+		name_list="MACHINE_AGE1"
+		gender=male
+		trait="trait_machine_unit"
+		trait="trait_robot_history_resourcebot"
+		trait="trait_robot_mass_produced"
+	}
+	name=
+	{
+		key="Mantrid Drones"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Mantrid"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_machine_intelligence"
+	government="gov_machine_terminator"
+	advisor_voice_type="l_machine"
+	planet_name=
+	{
+		key="Brizon"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="Vizier"
+		literal=yes
+	}
+	initializer="custom_starting_init_05"
+	graphical_culture="cybernetics_01"
+	city_graphical_culture="arthropoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_18.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_26.dds"
+		}
+		colors=
+		{
+			"shadow_purple"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Mantrid"
+				literal=yes
+			}
+		}
+		portrait="synth_machine_02"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=4
+		ruler_title=
+		{
+			key="Command Cube"
+			literal=yes
+		}
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="cybernetics_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_machine_terminator"
+		"civic_machine_builder"
+	}
+	origin="origin_arc_welders"
+}
+"Nook"=
+{
+	key="Nook"
+	ship_prefix=
+	{
+		key="NOK"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human_legacy"
+		species_name=
+		{
+			key="Brothers"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Brothers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Brother"
+			literal=yes
+		}
+		species_bio="Lexx - Nook"
+		name_list="AQUATIC2"
+		gender=male
+		trait="trait_aquatic"
+		trait="trait_nonadaptive"
+		trait="trait_sedentary"
+		trait="trait_agrarian"
+		trait="trait_traditional"
+	}
+	name=
+	{
+		key="Nook"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Nook"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_aqu_vir"
+	planet_name=
+	{
+		key="Father Nook"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Dexter"
+		literal=yes
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="arthropoid_01"
+	city_graphical_culture="synthetics_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="new_dawn.dds"
+		}
+		colors=
+		{
+			"intense_blue"
+			"dark_green"
+			"turquoise"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Randor"
+				literal=yes
+			}
+		}
+		portrait="human_legacy_male_01"
+		texture=0
+		evolution_mask=0
+		attachment=55
+		clothes=1
+		ruler_title=
+		{
+			key="Brother of Brothers"
+			literal=yes
+		}
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_ruthless_capitalists_room"
+	spawn_enabled=always
+	ethic="ethic_xenophobe"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_eager_explorers"
+		"civic_agrarian_idyll"
+	}
+	origin="origin_ocean_paradise"
+}
+"Reform Planets"=
+{
+	key="Reform Planets"
+	ship_prefix=
+	{
+		key="OBH"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="Heretic"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Heretics"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Heretical"
+			literal=yes
+		}
+		species_bio="Lexx - Ostral-B Heretics"
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_humanoid_existential_iteroparity"
+	}
+	name=
+	{
+		key="Reform Planets"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Reform"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	advisor_voice_type="l_egalitarian"
+	planet_name=
+	{
+		key="Ostral-B"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Bingo"
+		literal=yes
+	}
+	initializer="deneb_system"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="blocky"
+			file="flag_blocky_9.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_50.dds"
+		}
+		colors=
+		{
+			"bright_yellow"
+			"intense_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Thodin"
+				literal=yes
+			}
+		}
+		portrait="human_male_04"
+		texture=3
+		evolution_mask=0
+		attachment=17
+		clothes=0
+		trait="leader_trait_fleet_organizer"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_federation_builders_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_idealistic_foundation"
+		"civic_genetic_identification"
+	}
+	origin="origin_starlit_citadel"
+}
+"League of 20,000 Planets"=
+{
+	key="League of 20,000 Planets"
+	ship_prefix=
+	{
+		key="HDS"
+		literal=yes
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec6"
+		species_name=
+		{
+			key="The Divine"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Divine"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Divine"
+			literal=yes
+		}
+		species_bio="Lexx - The Divine Order"
+		name_list="HUMAN3"
+		gender=male
+		trait="trait_conformists"
+	}
+	name=
+	{
+		key="League of 20,000 Planets"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="League"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_divine_empire"
+	advisor_voice_type="l_necroid_vir"
+	planet_name=
+	{
+		key="The Cluster"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="B3K"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_15.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="circle.dds"
+		}
+		colors=
+		{
+			"grey"
+			"dark_grey"
+			"grey"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Rockhound"
+				literal=yes
+			}
+		}
+		portrait="nec6"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="His Divine Shadow"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="Foreshadow"
+			literal=yes
+		}
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="organic_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_reanimated_armies"
+		"civic_imperial_cult"
+	}
+	origin="origin_remnants"
+}
+"Water"=
+{
+	key="Water"
+	ship_prefix=
+	{
+		key="WTR"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="cyb12"
+		species_name=
+		{
+			key="Boomer"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Boomers"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Boomer"
+			literal=yes
+		}
+		species_bio="Lexx - Water"
+		name_list="HUMAN1"
+		gender=not_set
+		trait="trait_humanoid_psychological_infertility"
+		trait="trait_docile"
+		trait="trait_communal"
+		trait="trait_sedentary"
+		trait="trait_conformists"
+	}
+	name=
+	{
+		key="Water"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Water"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_democratic"
+	government="gov_moral_democracy"
+	advisor_voice_type="l_wild_vir"
+	planet_name=
+	{
+		key="Boomtown"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Garden"
+		literal=yes
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="wilderness_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_20.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_18.dds"
+		}
+		colors=
+		{
+			"blue"
+			"white"
+			"teal"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Bunny"
+				literal=yes
+			}
+		}
+		portrait="cyb12_f_03"
+		texture=0
+		evolution_mask=0
+		attachment=2
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="solarpunk_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_pacifist"
+	civics=
+	{
+		"civic_pleasure_seekers"
+		"civic_idealistic_foundation"
+	}
+	origin="origin_starlit_citadel"
 }
 "Asari League"=
 {
@@ -6841,6 +7933,1796 @@ The Riftborn must escape the Blight which is destroying their home."
 	}
 	origin="origin_evolutionary_predators"
 }
+"Alkari Flock"=
+{
+	key="Alkari Flock"
+	ship_prefix=
+	{
+		key="ALK"
+		literal=yes
+	}
+	species=
+	{
+		class="AVI"
+		portrait="avi2"
+		species_name=
+		{
+			key="Alkari"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Alkaris"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Alkari"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Alkari"
+		name_list="AVI1"
+		gender=male
+		trait="trait_nonadaptive"
+		trait="trait_spatial_mastery"
+	}
+	name=
+	{
+		key="Alkari Flock"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Alkari"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Altair"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Altair"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="wilderness_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_4.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_48.dds"
+		}
+		colors=
+		{
+			"shadow_blue"
+			"white"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Iron Feather"
+				literal=yes
+			}
+		}
+		portrait="avi2"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Skylord"
+			literal=yes
+		}
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="wilderness_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_fanatic_militarist"
+	civics=
+	{
+		"civic_distinguished_admiralty"
+		"civic_crusader_spirit"
+	}
+	origin="origin_shoulders_of_giants"
+}
+"Antaran Empire"=
+{
+	key="Antaran Empire"
+	ship_prefix=
+	{
+		key="ANT"
+		literal=yes
+	}
+	species=
+	{
+		class="MOL"
+		portrait="mol15"
+		species_name=
+		{
+			key="Antaran"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Antarans"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Antaran"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Antarans"
+		name_list="MOL3"
+		gender=male
+		trait="trait_perfected_genes"
+		trait="trait_intelligent"
+		trait="trait_talented"
+		trait="trait_solitary"
+	}
+	name=
+	{
+		key="Antaran Empire"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Antaran"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_purity_order"
+	advisor_voice_type="l_the_technocrat"
+	planet_name=
+	{
+		key="Antares"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Antares"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="molluscoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="pointy"
+			file="flag_pointy_23.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_19.dds"
+		}
+		colors=
+		{
+			"green"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Ix'k'stl"
+				literal=yes
+			}
+		}
+		portrait="mol15"
+		texture=2
+		attachment=0
+		clothes=2
+		ruler_title=
+		{
+			key="Herald"
+			literal=yes
+		}
+		trait="leader_trait_legendary_foe_hammer"
+		trait="leader_trait_legendary_unfriendly"
+		trait="leader_trait_legendary_military_knowledge"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="aquatics_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_fanatic_purifiers"
+		"civic_eager_explorers"
+	}
+	origin="origin_legendary_leader"
+}
+"Bulrathi"=
+{
+	key="Bulrathi"
+	ship_prefix=
+	{
+		key="BUL"
+		literal=yes
+	}
+	species=
+	{
+		class="REP"
+		portrait="rep10"
+		species_name=
+		{
+			key="Bulrathi"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Bulrathis"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Bulrathi"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Bulrathi"
+		name_list="MAM4"
+		gender=male
+		trait="trait_very_strong"
+		trait="trait_unruly"
+		trait="trait_slow_learners"
+		trait="trait_industrious"
+	}
+	name=
+	{
+		key="Bulrathi"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Bulrathi"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_militarist"
+	planet_name=
+	{
+		key="Ursa"
+		literal=yes
+	}
+	planet_class="pc_tundra"
+	system_name=
+	{
+		key="Ursa"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="nemesis_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_12.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_48.dds"
+		}
+		colors=
+		{
+			"intense_red"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Grorvog"
+				literal=yes
+			}
+		}
+		portrait="rep10"
+		texture=2
+		attachment=0
+		clothes=2
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_ruthless_capitalists_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_authoritarian"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_slaver_guilds"
+	}
+	origin="origin_life_seeded"
+}
+"Darlok of Nazin"=
+{
+	key="Darlok of Nazin"
+	ship_prefix=
+	{
+		key="DRL"
+		literal=yes
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec7"
+		species_name=
+		{
+			key="Darlok"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Darloks"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Darlok"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Darlok"
+		name_list="NECROID3"
+		gender=male
+		trait="trait_solitary"
+		trait="trait_weak"
+		trait="trait_natural_sociologists"
+		trait="trait_intelligent"
+		trait="trait_quick_learners"
+	}
+	name=
+	{
+		key="Darlok of Nazin"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Darlok"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_criminal_syndicate"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Nazin"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Nazin"
+		literal=yes
+	}
+	initializer="fear_of_the_dark_system"
+	graphical_culture="necroid_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="ornate"
+			file="flag_ornate_24.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors=
+		{
+			"shadow_purple"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Dar'Quan"
+				literal=yes
+			}
+		}
+		portrait="nec7"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Hindmost"
+			literal=yes
+		}
+		trait="leader_trait_spycraft"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_slaving_despots_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_xenophile"
+	civics=
+	{
+		"civic_criminal_heritage"
+		"civic_ruthless_competition"
+	}
+	origin="origin_fear_of_the_dark"
+}
+"Elerian Fiefdoms"=
+{
+	key="Elerian Fiefdoms"
+	ship_prefix=
+	{
+		key=""
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="cyb8"
+		species_name=
+		{
+			key="Elerian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Elerians"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Elerian"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Elerian"
+		name_list="HUM4"
+		gender=female
+		trait="trait_latent_psionic"
+		trait="trait_traditional"
+		trait="trait_nonadaptive"
+		trait="trait_intelligent"
+		trait="trait_enduring"
+	}
+	name=
+	{
+		key="Elerian Fiefdoms"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Elerian"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_feudal_empire"
+	advisor_voice_type="l_spiritualist"
+	planet_name=
+	{
+		key="Draconis"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Draconis"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="imperial"
+			file="imperial_09.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors=
+		{
+			"mist_blue"
+			"dark_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="Cassandra"
+				literal=yes
+			}
+		}
+		portrait="cyb8_f"
+		texture=0
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_principled"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_feudal_realm"
+		"civic_police_state"
+	}
+	origin="origin_shroudwalker_apprentice"
+}
+"Gnolam League"=
+{
+	key="Gnolam League"
+	ship_prefix=
+	{
+		key="GNO"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam15"
+		species_name=
+		{
+			key="Gnolam"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Gnolams"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Gnolam"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Gnolam"
+		name_list="MAM1"
+		gender=not_set
+		trait="trait_thrifty"
+		trait="trait_weak"
+		trait="trait_decadent"
+		trait="trait_ingenious"
+	}
+	name=
+	{
+		key="Gnolam League"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Gnolam"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_corporate"
+	government="gov_trade_league"
+	advisor_voice_type="l_slick_corp"
+	planet_name=
+	{
+		key="Gnol"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Gnol"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="toxoid_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="spherical"
+			file="flag_spherical_1.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="pattern_01.dds"
+		}
+		colors=
+		{
+			"green"
+			"bright_yellow"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Bortis"
+				literal=yes
+			}
+		}
+		portrait="mam15"
+		texture=4
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_harmonious_hierarchy_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophile"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_free_traders"
+		"civic_corporate_crafters"
+	}
+	origin="origin_common_ground"
+}
+"Terran Republic"=
+{
+	key="Terran Republic"
+	ship_prefix=
+	{
+		key="SOL"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="human"
+		species_name=
+		{
+			key="PRESCRIPTED_species_name_humans1"
+		}
+		species_plural=
+		{
+			key="PRESCRIPTED_species_plural_humans1"
+		}
+		species_adjective=
+		{
+			key="PRESCRIPTED_species_adjective_humans1"
+		}
+		species_bio="Masters of Orion - Humans"
+		name_list="HUMAN1"
+		gender=male
+		trait="trait_wasteful"
+		trait="trait_charismatic"
+		trait="trait_traditional"
+		trait="trait_unruly"
+		trait="trait_intelligent"
+	}
+	name=
+	{
+		key="Terran Republic"
+		literal=yes
+	}
+	adjective=
+	{
+		key="PRESCRIPTED_adjective_humans1"
+	}
+	authority="auth_democratic"
+	government="gov_direct_democracy"
+	planet_name=
+	{
+		key="NAME_Earth"
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="NAME_Sol"
+	}
+	initializer="sol_system_initializer"
+	graphical_culture="humanoid_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="human"
+			file="flag_human_8.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_31.dds"
+		}
+		colors=
+		{
+			"blue"
+			"white"
+			"null"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Alexander"
+				literal=yes
+			}
+		}
+		portrait="human_male_01"
+		texture=0
+		attachment=28
+		clothes=2
+		ruler_title=
+		{
+			key="President"
+			literal=yes
+		}
+		trait="trait_ruler_charismatic"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=yes
+	room="personality_migrating_flock_room"
+	spawn_enabled=always
+	ethic="ethic_egalitarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_materialist"
+	civics=
+	{
+		"civic_merchant_guilds"
+		"civic_diplomatic_corps"
+	}
+	origin="origin_default"
+}
+"Klackon"=
+{
+	key="Klackon"
+	ship_prefix=
+	{
+		key="KLK"
+		literal=yes
+	}
+	species=
+	{
+		class="ART"
+		portrait="art11"
+		species_name=
+		{
+			key="Klackon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Klackons"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Klackon"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Klackon"
+		name_list="ART4"
+		gender=male
+		trait="trait_hive_mind"
+		trait="trait_strong"
+		trait="trait_communal"
+		trait="trait_slow_learners"
+		trait="trait_fleeting"
+		trait="trait_agrarian"
+	}
+	name=
+	{
+		key="Klackon"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Klackon"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
+	advisor_voice_type="l_hivemind"
+	planet_name=
+	{
+		key="Kholdan"
+		literal=yes
+	}
+	planet_class="pc_arid"
+	system_name=
+	{
+		key="Kholdan"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="plantoid_01"
+	city_graphical_culture="molluscoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="plantoid"
+			file="plantoid_10.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_56.dds"
+		}
+		colors=
+		{
+			"dark_orange"
+			"dark_steel"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Ixitixl"
+				literal=yes
+			}
+		}
+		portrait="art11"
+		texture=3
+		attachment=0
+		clothes=0
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_gestalt_consciousness"
+	civics=
+	{
+		"civic_hive_divided_attention"
+		"civic_hive_subsumed_will"
+	}
+	origin="origin_progenitor_hive"
+}
+"Meklar Combine"=
+{
+	key="Meklar Combine"
+	ship_prefix=
+	{
+		key="MEK"
+		literal=yes
+	}
+	species=
+	{
+		class="NECROID"
+		portrait="nec2"
+		species_name=
+		{
+			key="Meklar"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Meklars"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Meklar"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Meklar"
+		name_list="MACHINE1"
+		gender=not_set
+		trait="trait_pathogenic_genes"
+		trait="trait_very_strong"
+		trait="trait_brittle"
+		trait="trait_natural_engineers"
+		trait="trait_intelligent"
+	}
+	name=
+	{
+		key="Meklar Combine"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Meklar"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_totalitarian_regime"
+	advisor_voice_type="l_the_technocrat"
+	planet_name=
+	{
+		key="Meklon"
+		literal=yes
+	}
+	planet_class="pc_desert"
+	system_name=
+	{
+		key="Meklon"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="reptilian_01"
+	city_graphical_culture="necroid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="legion"
+			file="legion_05.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_13.dds"
+		}
+		colors=
+		{
+			"dark_brown"
+			"dark_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=female
+		name=
+		{
+			full_names=
+			{
+				key="CB-715"
+				literal=yes
+			}
+		}
+		portrait="nec2"
+		texture=1
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Overseer"
+			literal=yes
+		}
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_erudite_explorers_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_relentless_industrialists"
+		"civic_police_state"
+	}
+	origin="origin_synthetic_fertility"
+}
+"Mrrshan"=
+{
+	key="Mrrshan"
+	ship_prefix=
+	{
+		key="MRR"
+		literal=yes
+	}
+	species=
+	{
+		class="MAM"
+		portrait="mam14"
+		species_name=
+		{
+			key="Mrrshan"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Mrrshan"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Mrrshan"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Mrrshan"
+		name_list="MAM2"
+		gender=male
+		trait="trait_strong"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_decadent"
+	}
+	name=
+	{
+		key="Mrrshan"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Mrrshan"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	advisor_voice_type="l_authoritarian"
+	planet_name=
+	{
+		key="Fieras"
+		literal=yes
+	}
+	planet_class="pc_savannah"
+	system_name=
+	{
+		key="Fieras"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="avian_01"
+	city_graphical_culture="mammalian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="zoological"
+			file="flag_zoological_24.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_24.dds"
+		}
+		colors=
+		{
+			"light_orange"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Jassaan"
+				literal=yes
+			}
+		}
+		portrait="mam14"
+		texture=6
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="default_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophile"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_warrior_culture"
+		"civic_crusader_spirit"
+	}
+	origin="origin_primal_calling"
+}
+"Psilon Quanta"=
+{
+	key="Psilon Quanta"
+	ship_prefix=
+	{
+		key="PSI"
+		literal=yes
+	}
+	species=
+	{
+		class="HUM"
+		portrait="humanoid_04"
+		species_name=
+		{
+			key="Psilon"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Psilons"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Psilon"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Psilon"
+		name_list="HUM2"
+		gender=male
+		trait="trait_intelligent"
+		trait="trait_natural_physicists"
+		trait="trait_ingenious"
+		trait="trait_slow_breeders"
+		trait="trait_weak"
+	}
+	name=
+	{
+		key="Psilon Quanta"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Psilon"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_science_directorate"
+	advisor_voice_type="l_the_diplomat"
+	planet_name=
+	{
+		key="Mentar"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Mentar"
+		literal=yes
+	}
+	initializer="deneb_system"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="fungoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="toxoid"
+			file="toxoid_07.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"cloud_purple"
+			"cloud_purple"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Meson"
+				literal=yes
+			}
+		}
+		portrait="humanoid_04_male_01"
+		texture=1
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		trait="leader_trait_spark_of_genius"
+		leader_class="scientist"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_peaceful_traders_room"
+	spawn_enabled=always
+	ethic="ethic_pacifist"
+	ethic="ethic_fanatic_materialist"
+	civics=
+	{
+		"civic_memory_vault"
+		"civic_technocracy"
+	}
+	origin="origin_remnants"
+}
+"Sakkra Brood"=
+{
+	key="Sakkra Brood"
+	ship_prefix=
+	{
+		key="SAK"
+		literal=yes
+	}
+	species=
+	{
+		class="REP"
+		portrait="rep14"
+		species_name=
+		{
+			key="Sakkra"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Sakkra"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Sakkra"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Sakkra"
+		name_list="HUM1"
+		gender=male
+		trait="trait_cave_dweller"
+		trait="trait_rapid_breeders"
+		trait="trait_slow_learners"
+		trait="trait_unruly"
+		trait="trait_adaptive"
+		trait="trait_communal"
+	}
+	name=
+	{
+		key="Sakkra Brood"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Sakkra"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	planet_name=
+	{
+		key="Sssla"
+		literal=yes
+	}
+	planet_class="pc_tropical"
+	system_name=
+	{
+		key="Sssla"
+		literal=yes
+	}
+	initializer=""
+	graphical_culture="toxoid_01"
+	city_graphical_culture="reptilian_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="domination"
+			file="domination_16.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="00_solid.dds"
+		}
+		colors=
+		{
+			"green"
+			"green"
+			"dark_teal"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Guanar"
+				literal=yes
+			}
+		}
+		portrait="rep14"
+		texture=2
+		attachment=0
+		clothes=0
+		trait="trait_ruler_logistic_understanding"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="crystalline_room"
+	spawn_enabled=always
+	ethic="ethic_authoritarian"
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_slaver_guilds"
+		"civic_warrior_culture"
+	}
+	origin="origin_subterranean"
+}
+"The Crag"=
+{
+	key="The Crag"
+	ship_prefix=
+	{
+		key="SIL"
+		literal=yes
+	}
+	species=
+	{
+		class="LITHOID"
+		portrait="lith5"
+		species_name=
+		{
+			key="Silicoid"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Silicoids"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Silicoid"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Silicoid"
+		name_list="LITHOID1"
+		gender=male
+		trait="trait_lithoid"
+		trait="trait_repugnant"
+		trait="trait_strong"
+		trait="trait_inorganic_breath"
+	}
+	name=
+	{
+		key="The Crag"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Silicoid"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_blood_court"
+	advisor_voice_type="l_lithoid_vir"
+	planet_name=
+	{
+		key="Basin"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name=
+	{
+		key="Cryslon"
+		literal=yes
+	}
+	initializer="deneb_system"
+	graphical_culture="lithoid_01"
+	city_graphical_culture="lithoid_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="legion"
+			file="legion_04.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="horizontal_stripe.dds"
+		}
+		colors=
+		{
+			"black"
+			"sky_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Igneok"
+				literal=yes
+			}
+		}
+		portrait="lith5"
+		texture=2
+		evolution_mask=0
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Keystone"
+			literal=yes
+		}
+		heir_title=
+		{
+			key="Keypebble"
+			literal=yes
+		}
+		trait="trait_ruler_industrialist"
+		leader_class="official"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="lithoid_room"
+	spawn_enabled=always
+	ethic="ethic_fanatic_xenophobe"
+	ethic="ethic_militarist"
+	civics=
+	{
+		"civic_fanatic_purifiers"
+		"civic_warrior_culture"
+	}
+	origin="origin_lithoid"
+}
+"Trilarian Shoal"=
+{
+	key="Trilarian Shoal"
+	ship_prefix=
+	{
+		key="TRI"
+		literal=yes
+	}
+	species=
+	{
+		class="AQUATIC"
+		portrait="aqu6"
+		species_name=
+		{
+			key="Trilarian"
+			literal=yes
+		}
+		species_plural=
+		{
+			key="Triliarians"
+			literal=yes
+		}
+		species_adjective=
+		{
+			key="Trilarian"
+			literal=yes
+		}
+		species_bio="Masters of Orion - Trilarian"
+		name_list="AQUATIC1"
+		gender=male
+		trait="trait_aquatic"
+		trait="trait_slow_breeders"
+		trait="trait_natural_physicists"
+		trait="trait_nomadic"
+	}
+	name=
+	{
+		key="Trilarian Shoal"
+		literal=yes
+	}
+	adjective=
+	{
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="adjective"
+				value=
+				{
+					key="Trilarian"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_oligarchic"
+	government="gov_theocratic_oligarchy"
+	advisor_voice_type="l_pacifist"
+	planet_name=
+	{
+		key="Trilar"
+		literal=yes
+	}
+	planet_class="pc_ocean"
+	system_name=
+	{
+		key="Trilar"
+		literal=yes
+	}
+	initializer="ocean_paradise_start"
+	graphical_culture="aquatic_01"
+	city_graphical_culture="aquatic_01"
+	empire_flag=
+	{
+		icon=
+		{
+			category="aquatic"
+			file="aquatic_04.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="flag_BG_10.dds"
+		}
+		colors=
+		{
+			"light_indigo"
+			"intense_blue"
+			"black"
+			"null"
+		}
+	}
+	ruler=
+	{
+		gender=male
+		name=
+		{
+			full_names=
+			{
+				key="Stinger"
+				literal=yes
+			}
+		}
+		portrait="aqu6_m"
+		texture=1
+		attachment=0
+		clothes=0
+		ruler_title=
+		{
+			key="Dictator"
+			literal=yes
+		}
+		trait="trait_ruler_logistic_understanding"
+		leader_class="commander"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="necroids_room"
+	spawn_enabled=always
+	ethic="ethic_xenophile"
+	ethic="ethic_pacifist"
+	ethic="ethic_spiritualist"
+	civics=
+	{
+		"civic_anglers"
+		"civic_hyperspace_specialty"
+	}
+	origin="origin_ocean_paradise"
+}
 "Computer Core"=
 {
 	key="Computer Core"
@@ -6865,6 +9747,34 @@ The Riftborn must escape the Blight which is destroying their home."
 			key="Computer"
 		}
 		species_bio="Misc - Paranoia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -9881,8 +12791,8 @@ The computer is your friend. Happiness is manditory."
 	}
 	species=
 	{
-		class="HUM"
-		portrait="humanoid_hp_13"
+		class="REP"
+		portrait="bio9"
 		species_name=
 		{
 			key="Melnorme"
@@ -9913,11 +12823,11 @@ The computer is your friend. Happiness is manditory."
 		species_bio="Star Control 2 - Melnorme"
 		name_list="AQUATIC4"
 		gender=not_set
-		trait="trait_extremely_adaptive"
 		trait="trait_thrifty"
 		trait="trait_solitary"
 		trait="trait_slow_breeders"
 		trait="trait_humanoid_jinxed"
+		trait="trait_chromalogs"
 	}
 	name=
 	{
@@ -10007,10 +12917,11 @@ The computer is your friend. Happiness is manditory."
 				literal=yes
 			}
 		}
-		portrait="humanoid_hp_13_female"
-		texture=1
+		portrait="bio9"
+		texture=2
+		evolution_mask=0
 		attachment=0
-		clothes=0
+		clothes=1
 		ruler_title=
 		{
 			key="Trade Master"
@@ -10038,9 +12949,9 @@ The computer is your friend. Happiness is manditory."
 	}
 	origin="origin_storm_chasers"
 }
-"Orz Multistellar"=
+"Orz Multitude"=
 {
-	key="Orz Multistellar"
+	key="Orz Multitude"
 	ship_prefix=
 	{
 		key="ORZ"
@@ -10064,20 +12975,45 @@ The computer is your friend. Happiness is manditory."
 		species_bio="Star Control 2 - Orz"
 		name_list="TOX2"
 		gender=not_set
+		trait="trait_hive_mind"
 		trait="trait_nonadaptive"
 		trait="trait_charismatic"
-		trait="trait_intelligent"
+		trait="trait_humanoid_existential_iteroparity"
 	}
 	name=
 	{
-		key="Orz Multistellar"
+		key="%ADJ%"
+		variables=
+		{
+			
+			{
+				key="1"
+				value=
+				{
+					key="Orz"
+					variables=
+					{
+						
+						{
+							key="1"
+							value=
+							{
+								key="Multitude"
+							}
+						}
+ 
+					}
+				}
+			}
+ 
+		}
 	}
 	adjective=
 	{
 		key="Orz"
 	}
-	authority="auth_corporate"
-	government="gov_megacorporation"
+	authority="auth_hive_mind"
+	government="gov_hive_mind"
 	advisor_voice_type="l_slick_corp"
 	planet_name=
 	{
@@ -10132,12 +13068,11 @@ The computer is your friend. Happiness is manditory."
 	ignore_portrait_duplication=no
 	room="personality_migrating_flock_room"
 	spawn_enabled=always
-	ethic="ethic_xenophile"
-	ethic="ethic_fanatic_militarist"
+	ethic="ethic_gestalt_consciousness"
 	civics=
 	{
-		"civic_naval_contractors"
-		"civic_ruthless_competition"
+		"civic_void_hive"
+		"civic_hive_subspace_ephapse"
 	}
 	origin="origin_riftworld"
 }
@@ -13860,7 +16795,7 @@ The computer is your friend. Happiness is manditory."
 		"civic_eager_explorers"
 		"civic_death_cult"
 	}
-	origin="origin_here_be_dragons"
+	origin="origin_scion"
 }
 "Federation of Allied Species"=
 {
@@ -15133,9 +18068,9 @@ The computer is your friend. Happiness is manditory."
 	}
 	origin="origin_galactic_doorstep"
 }
-"Borg Assimilators"=
+"The Borg Collective"=
 {
-	key="Borg Assimilators"
+	key="The Borg Collective"
 	ship_prefix=
 	{
 		key="BRG"
@@ -15197,31 +18132,8 @@ The computer is your friend. Happiness is manditory."
 	}
 	name=
 	{
-		key="%ADJ%"
-		variables=
-		{
-			
-			{
-				key="1"
-				value=
-				{
-					key="Borg"
-					variables=
-					{
-						
-						{
-							key="1"
-							value=
-							{
-								key="Assimilators"
-							}
-						}
- 
-					}
-				}
-			}
- 
-		}
+		key="The Borg Collective"
+		literal=yes
 	}
 	adjective=
 	{

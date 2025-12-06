@@ -155,5 +155,5 @@
 		"civic_eager_explorers"
 		"civic_death_cult"
 	}
-	origin="origin_here_be_dragons"
+	origin="origin_scion"
 }

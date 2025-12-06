@@ -9,7 +9,7 @@
 	species=
 	{
 		class="HUM"
-		portrait="humanoid_02"
+		portrait="cyb8"
 		species_name=
 		{
 			key="Brakiri"
@@ -111,7 +111,7 @@
 			}
 			use_full_regnal_name=yes
 		}
-		portrait="humanoid_02_female_01"
+		portrait="cyb8_f"
 		texture=1
 		evolution_mask=0
 		attachment=0
